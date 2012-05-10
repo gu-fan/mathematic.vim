@@ -1,12 +1,12 @@
-" Vim Keymap file for Mathematica useage
+" Vim Keymap file for Mathematic useage
 " Credit:     Charles E. Campbell, Jr.
 " Modifier:   Rykka G.F <Rykka10(at)gmail.com>
-" Last Updated: 2012-03-19
+" Last Updated: 2012-05-10
 " Version: 0.5
 " vim: enc=utf8 ts=8 fdm=marker fenc=utf8
 
 " Add mathematica support , replace the originnal <M-Char>
-let b:keymap_name = "Mathematica"
+let b:keymap_name = "Mathematic"
 
 " Keymap Initialization: {{{1
 scriptencoding utf-8
