@@ -191,14 +191,26 @@ F5/8    <char-0x215D>    " ⅝
 F7/8    <char-0x215E>    " ⅞
 
 " arrows {{{1
-<--   <char-0x27F5> " ⟵
--->   <char-0x27F6> " ⟶
+<--- <char-0x27F5> " ⟵
+---> <char-0x27F6> " ⟶
+<--> <char-0x27F7> " ⟷
 <->  <char-0x2194> " ↔
-<==  <char-0x27F8> " ⟸
-==>  <char-0x27F9> " ⟹
-<=>  <char-0x27FA> " ⟺
+-->  <char-0x2192> " →
+<--  <char-0x2190> " ←
+--^  <char-0x2191> " ↑
+--v  <char-0x2193> " ↓
+==>  <char-0x21D2> " ⇒
+<==  <char-0x21D0> " ⇐
+==^  <char-0x21D1> " ⇑
+==v  <char-0x21D3> " ⇓
+<=>  <char-0x21D4> " ⇔
+<=== <char-0x27F8> " ⟸
+===> <char-0x27F9> " ⟹
+<==> <char-0x27FA> " ⟺
 |-<  <char-0x21A4> " ↤
+|--< <char-0x21FB> " ⟻
 |->  <char-0x21A6> " ↦
+|--> <char-0x21FC> " ⟼
 |=<  <char-0x27FD> " ⟽
 |=>  <char-0x27FE> " ⟾
 
@@ -252,24 +264,27 @@ __2    <char-0x23AF>    " ⎯ (horizontal line extension)
 __B    <char-0x2015>    " ― (horizontal bar)
 ||V    <char-0x2503>    " ┃ (vertical bar)
 ||2    <char-0x2016>    " ‖ (double vertical bar)
-SSH    <char-0x210B>    " ℋ (script H)
-SSI    <char-0x2111>    " ℑ (script I)
-SSL    <char-0x2112>    " ℒ (script L)
-SSR    <char-0x211C>    " ℜ (script R)
 ARC    <char-0x2312>    " ⌒  (arc)
 QED    <char-0x220E>    " ∎ (qed, as in end-of-proof)
 TBT    <char-0x2023>    " ‣ (triangular bullet)
 INF    <char-0x221E>    " ∞ (infinity)
-ANG    <char-0x2221>    " ∡ (angle)
-
+PROP   <char-0x221D>    " ∝ (proportional)
+ANG0   <char-0x221F>    " ∟ (angle)
+ANG1   <char-0x2220>    " ∠ (angle)
+ANG2   <char-0x2221>    " ∡ (angle)
+PERP   <char-0x22A5>    " ⊥ (perpendicular)
+PEM    <char-0x2030>    " ‰ (permillage)
+DEGC   <char-0x2103>    " ℃
+DEGF   <char-0x2109>    " ℉
+OHM    <char-0x2126>    " Ω
+ANGS   <char-0x212B>    " Å
 
 " operators {{{1
 UU.     <char-0x2A03> " ⨃
 UU+     <char-0x2A04> " ⨄
 UUI     <char-0x2229> " ∩ (intersection)
-UUN     <char-0x222A> " ∪ (union)
-UUA     <char-0x2229> " ∩ (cup == union)
-UUV     <char-0x222A> " ∪ (cap == intersection)
+UUU     <char-0x222A> " ∪ (union)
+UUN     <char-0x2229> " ∩ (n)
 II1     <char-0x222B> " ∫
 II2     <char-0x222C> " ∬
 II3     <char-0x222D> " ∭
@@ -277,11 +292,11 @@ II4     <char-0x2A0C> " ⨌
 II-     <char-0x2A0D> " ⨍
 II=     <char-0x2A0E> " ⨎
 II/     <char-0x2A0F> " ⨏
-IIO     <char-0x222E> " ∮
-I2O     <char-0x222F> " ∯
-I3O     <char-0x2230> " ∰
-IIC     <char-0x2232> " ∲ (clockwise contour integral)
-IIW     <char-0x2233> " ∳ (counter-clockwise contour integral)
+IO1     <char-0x222E> " ∮
+IO2     <char-0x222F> " ∯
+IO3     <char-0x2230> " ∰
+IOC     <char-0x2232> " ∲ (clockwise contour integral)
+IOW     <char-0x2233> " ∳ (counter-clockwise contour integral)
 IIU     <char-0x2320> " ⌠ (upper integral)
 IIM     <char-0x23AE> " ⎮ (middle integral)
 IIB     <char-0x2321> " ⌡ (bottom integral)
@@ -310,10 +325,13 @@ L//     <char-0x2216> " ∖ (left division slash)
 ''1     <char-0x2032> " ′ (prime)
 ''2     <char-0x2033> " ″ (double prime)
 ''3     <char-0x2034> " ‴ (triple prime)
-PDF     <char-0x2202> " ∂ (partial differential)
+PDIF    <char-0x2202> " ∂ (partial differential)
 JON     <char-0x2A1D> " ⨝ (join)
 TEF     <char-0x2234> " ∴ (therefore)
 BCS     <char-0x2235> " ∵ (because)
+RTO     <char-0x2236> " ∶ (ratio)
+PRO     <char-0x2237> " ∷ (proportion)
+
 
 " relationals {{{1
 =<=    <char-0x2264> " ≤
@@ -353,8 +371,6 @@ Ooo    <char-0x229A> " ⊚ (O-ring)
 OO.    <char-0x2A00> " ⨀
 OO+    <char-0x2A01> " ⨁
 OOx    <char-0x2A02> " ⨂
-PERP   <char-0x22A5> " ⊥ (perpendicular)
-PROP   <char-0x221D> " ∝ (proportional)
 PREC   <char-0x227A> " ≺ (precedes)
 PSUC   <char-0x227B> " ≻ (succeeds)
 EQV    <char-0x224D> " ≍
@@ -385,4 +401,11 @@ NNN     <char-0x2115> " ℕ (natural numbers, {1,2,3,4,...})
 NNR     <char-0x211D> " ℝ (real numbers)
 NNQ     <char-0x211A> " ℚ (rational fractions, p/q, where p,q ∈ ℤ)
 NNZ     <char-0x2124> " ℤ (integers, {...,-4,-3,-2,-1,0,1,2,3,4,...})
-
+NSH    <char-0x210B>    " ℋ (script H)
+NSI    <char-0x2111>    " ℑ (script I)
+NSL    <char-0x2112>    " ℒ (script L)
+NSR    <char-0x211C>    " ℜ (script R)
+SBOT   <char-0x22A5>    " ⊥ (Bottom)
+STOP   <char-0x22A4>    " ⊤ (Top)
+SDER   <char-0x22A2>    " ⊢ (is derived from)
+SENT   <char-0x22A7>    " ⊧ (entails)
