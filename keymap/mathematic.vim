@@ -5,7 +5,7 @@
 " Version: 1.0
 " vim: enc=utf8 ts=8 fdm=marker fenc=utf8
 
-let b:keymap_name = "Mathematic"
+let b:keymap_name = "mathematic"
 
 " Keymap Initialization: {{{1
 scriptencoding utf-8

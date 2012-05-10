@@ -47,7 +47,7 @@ This is a vim keymap file contains mathematic symbols.
 Extract to your ~/.vim folder.
 Then you can make a mapping to use it.
 
-    map <leader>mk :set keymap=mathematic<CR>
-    map <leader>mn :set keymap=<CR>
+    map <leader>km :set keymap=mathematic<CR>
+    map <leader>kn :set keymap=<CR>
 
 ':h keymap' for further details.
