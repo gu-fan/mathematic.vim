@@ -40,7 +40,14 @@ This is a vim keymap file contains mathematic symbols.
                   NSH  => ℋ   , NSI  => ℑ , NSL  => ℒ
                   SBOT => ⊥   , STOP => ⊤ , SDER => ⊢
 
-                
+**NOTE** view the keymap file for detail mappings.
 
+## HOW TO USE:
 
-                            
+Extract to your ~/.vim folder.
+Then you can make a mapping to use it.
+
+    map <leader>mk :set keymap=mathematic<CR>
+    map <leader>mn :set keymap=<CR>
+
+':h keymap' for further details.

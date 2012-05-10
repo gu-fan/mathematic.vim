@@ -2,18 +2,16 @@
 " Credit:     Charles E. Campbell, Jr.
 " Modifier:   Rykka G.F <Rykka10(at)gmail.com>
 " Last Updated: 2012-05-10
-" Version: 0.5
+" Version: 1.0
 " vim: enc=utf8 ts=8 fdm=marker fenc=utf8
 
-" Add mathematica support , replace the originnal <M-Char>
 let b:keymap_name = "Mathematic"
 
 " Keymap Initialization: {{{1
 scriptencoding utf-8
 loadkeymap
 
-" Greek alphapetic
-" capitals {{{1
+" Greek upper case {{{1
 GGA    <char-0x0391>   " Α greek capital letter alpha
 GGB    <char-0x0392>   " Β greek capital letter beta
 GGC    <char-0x03A8>   " Ψ greek capital letter psi
@@ -39,7 +37,7 @@ GGX    <char-0x03A7>   " Χ greek capital letter chi
 GGY    <char-0x03A5>   " Υ greek capital letter upsilon
 GGZ    <char-0x0396>   " Ζ greek capital letter zeta
 
-" lower case {{{1
+" Greek lower case {{{1
 GGa   <char-0x03B1> " α greek small letter alpha
 GGb   <char-0x03B2> " β greek small letter beta
 GGg   <char-0x03B3> " γ greek small letter gamma
