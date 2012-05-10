@@ -456,5 +456,3 @@ _x  <char-0x2093> " ₓ
 \\beth    <char-0x05D1>   " ב Hebrew letter beth
 \\daleth  <char-0x05D3>   " ד Hebrew letter daleth
 \\gimel   <char-0x05D2>   " ג Hebrew letter gimel
-
-
