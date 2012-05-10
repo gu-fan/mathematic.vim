@@ -40,6 +40,11 @@ This is a vim keymap file contains mathematic symbols.
                   \SH  => ℋ   , \SI  => ℑ , \SL  => ℒ
                   \BOT => ⊥   , \TOP => ⊤ , \DER => ⊢
 
+    Latex math symbols:
+        currently only letters.
+                  \alpha => α , \Omega => Ω
+                  \aleph => א
+
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
 ## HOW TO USE:
