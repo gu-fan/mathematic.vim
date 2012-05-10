@@ -12,62 +12,62 @@ scriptencoding utf-8
 loadkeymap
 
 " Greek upper case {{{1
-GGA    <char-0x0391>   " Α greek capital letter alpha
-GGB    <char-0x0392>   " Β greek capital letter beta
-GGC    <char-0x03A8>   " Ψ greek capital letter psi
-GGD    <char-0x0394>   " Δ greek capital letter delta
-GGE    <char-0x0395>   " Ε greek capital letter epsilon
-GGF    <char-0x03A6>   " Φ greek capital letter phi
-GGG    <char-0x0393>   " Γ greek capital letter gamma
-GGH    <char-0x0397>   " Η greek capital letter eta
-GGI    <char-0x0399>   " Ι greek capital letter iota
-GGJ    <char-0x039E>   " Ξ greek capital letter xi
-GGK    <char-0x039A>   " Κ greek capital letter kappa
-GGL    <char-0x039B>   " Λ greek capital letter lambda
-GGM    <char-0x039C>   " Μ greek capital letter mu
-GGN    <char-0x039D>   " Ν greek capital letter nu
-GGO    <char-0x039F>   " Ο greek capital letter omikron
-GGP    <char-0x03A0>   " Π greek capital letter pi
-GGR    <char-0x03A1>   " Ρ greek capital letter rho
-GGS    <char-0x03A3>   " Σ greek capital letter sigma
-GGT    <char-0x03A4>   " Τ greek capital letter tau
-GGU    <char-0x0398>   " Θ greek capital letter theta
-GGV    <char-0x03A9>   " Ω greek capital letter omega
-GGX    <char-0x03A7>   " Χ greek capital letter chi
-GGY    <char-0x03A5>   " Υ greek capital letter upsilon
-GGZ    <char-0x0396>   " Ζ greek capital letter zeta
+\\GA    <char-0x0391>   " Α greek capital letter alpha
+\\GB    <char-0x0392>   " Β greek capital letter beta
+\\GC    <char-0x03A8>   " Ψ greek capital letter psi
+\\GD    <char-0x0394>   " Δ greek capital letter delta
+\\GE    <char-0x0395>   " Ε greek capital letter epsilon
+\\GF    <char-0x03A6>   " Φ greek capital letter phi
+\\GG    <char-0x0393>   " Γ greek capital letter gamma
+\\GH    <char-0x0397>   " Η greek capital letter eta
+\\GI    <char-0x0399>   " Ι greek capital letter iota
+\\GJ    <char-0x039E>   " Ξ greek capital letter xi
+\\GK    <char-0x039A>   " Κ greek capital letter kappa
+\\GL    <char-0x039B>   " Λ greek capital letter lambda
+\\GM    <char-0x039C>   " Μ greek capital letter mu
+\\GN    <char-0x039D>   " Ν greek capital letter nu
+\\GO    <char-0x039F>   " Ο greek capital letter omikron
+\\GP    <char-0x03A0>   " Π greek capital letter pi
+\\GR    <char-0x03A1>   " Ρ greek capital letter rho
+\\GS    <char-0x03A3>   " Σ greek capital letter sigma
+\\GT    <char-0x03A4>   " Τ greek capital letter tau
+\\GU    <char-0x0398>   " Θ greek capital letter theta
+\\GV    <char-0x03A9>   " Ω greek capital letter omega
+\\GX    <char-0x03A7>   " Χ greek capital letter chi
+\\GY    <char-0x03A5>   " Υ greek capital letter upsilon
+\\GZ    <char-0x0396>   " Ζ greek capital letter zeta
 
 " Greek lower case {{{1
-GGa   <char-0x03B1> " α greek small letter alpha
-GGb   <char-0x03B2> " β greek small letter beta
-GGg   <char-0x03B3> " γ greek small letter gamma
-GGd   <char-0x03B4> " δ greek small letter delta
-GGe   <char-0x03F5> " ϵ greek small letter epsilon
-GGve  <char-0x03B5> " ε greek small letter epsilon
-GGz   <char-0x03B6> " ζ greek small letter zeta
-GGh   <char-0x03B7> " η greek small letter eta
-GGu   <char-0x03B8> " θ greek small letter theta
-GGvu  <char-0x03D1> " ϑ greek small letter theta
-GGi   <char-0x03B9> " ι greek small letter iota
-GGk   <char-0x03BA> " κ greek small letter kappa
-GGl   <char-0x03BB> " λ greek small letter lambda
-GGm   <char-0x03BC> " μ greek small letter mu
-GGn   <char-0x03BD> " ν greek small letter nu
-GGj   <char-0x03BE> " ξ greek small letter xi
-GGo   <char-0x03BF> " ο greek small letter omicron
-GGp   <char-0x03C0> " π greek small letter pi
-GGvp  <char-0x03D6> " ϖ greek small letter pi
-GGr   <char-0x03C1> " ρ greek small letter rho
-GGvr  <char-0x03F1> " ϱ greek small letter rho
-GGs   <char-0x03C3> " σ greek small letter sigma
-GGvs  <char-0x03C2> " ς greek small letter final sigma
-GGt   <char-0x03C4> " τ greek small letter tau
-GGy   <char-0x03C5> " υ greek small letter upsilon
-GGf   <char-0x03C6> " φ greek small letter phi
-GGvf  <char-0x03D5> " ϕ greek small letter phi
-GGx   <char-0x03C7> " χ greek small letter chi
-GGc   <char-0x03C8> " ψ greek small letter psi
-GGw   <char-0x03C9> " ω greek small letter omega
+\\Ga   <char-0x03B1> " α greek small letter alpha
+\\Gb   <char-0x03B2> " β greek small letter beta
+\\Gg   <char-0x03B3> " γ greek small letter gamma
+\\Gd   <char-0x03B4> " δ greek small letter delta
+\\Ge   <char-0x03F5> " ϵ greek small letter epsilon
+\\Gve  <char-0x03B5> " ε greek small letter epsilon
+\\Gz   <char-0x03B6> " ζ greek small letter zeta
+\\Gh   <char-0x03B7> " η greek small letter eta
+\\Gu   <char-0x03B8> " θ greek small letter theta
+\\Gvu  <char-0x03D1> " ϑ greek small letter theta
+\\Gi   <char-0x03B9> " ι greek small letter iota
+\\Gk   <char-0x03BA> " κ greek small letter kappa
+\\Gl   <char-0x03BB> " λ greek small letter lambda
+\\Gm   <char-0x03BC> " μ greek small letter mu
+\\Gn   <char-0x03BD> " ν greek small letter nu
+\\Gj   <char-0x03BE> " ξ greek small letter xi
+\\Go   <char-0x03BF> " ο greek small letter omicron
+\\Gp   <char-0x03C0> " π greek small letter pi
+\\Gvp  <char-0x03D6> " ϖ greek small letter pi
+\\Gr   <char-0x03C1> " ρ greek small letter rho
+\\Gvr  <char-0x03F1> " ϱ greek small letter rho
+\\Gs   <char-0x03C3> " σ greek small letter sigma
+\\Gvs  <char-0x03C2> " ς greek small letter final sigma
+\\Gt   <char-0x03C4> " τ greek small letter tau
+\\Gy   <char-0x03C5> " υ greek small letter upsilon
+\\Gf   <char-0x03C6> " φ greek small letter phi
+\\Gvf  <char-0x03D5> " ϕ greek small letter phi
+\\Gx   <char-0x03C7> " χ greek small letter chi
+\\Gc   <char-0x03C8> " ψ greek small letter psi
+\\Gw   <char-0x03C9> " ω greek small letter omega
 
 
 
@@ -172,238 +172,242 @@ _u  <char-0x1D64> " ᵤ
 _v  <char-0x1D65> " ᵥ
 _x  <char-0x2093> " ₓ
 " fractions {{{1
-F1/2    <char-0x00BD>    " ½
-F1/3    <char-0x2153>    " ⅓
-F2/3    <char-0x2154>    " ⅔
-F1/4    <char-0x00BC>    " ¼
-F3/4    <char-0x00BE>    " ¾
-F1/5    <char-0x2155>    " ⅕
-F2/5    <char-0x2156>    " ⅖
-F3/5    <char-0x2157>    " ⅗
-F4/5    <char-0x2158>    " ⅘
-F1/6    <char-0x2159>    " ⅙
-F5/6    <char-0x215A>    " ⅚
-F1/8    <char-0x215B>    " ⅛
-F3/8    <char-0x215C>    " ⅜
-F5/8    <char-0x215D>    " ⅝
-F7/8    <char-0x215E>    " ⅞
+\\1/2    <char-0x00BD>    " ½
+\\1/3    <char-0x2153>    " ⅓
+\\2/3    <char-0x2154>    " ⅔
+\\1/4    <char-0x00BC>    " ¼
+\\3/4    <char-0x00BE>    " ¾
+\\1/5    <char-0x2155>    " ⅕
+\\2/5    <char-0x2156>    " ⅖
+\\3/5    <char-0x2157>    " ⅗
+\\4/5    <char-0x2158>    " ⅘
+\\1/6    <char-0x2159>    " ⅙
+\\5/6    <char-0x215A>    " ⅚
+\\1/8    <char-0x215B>    " ⅛
+\\3/8    <char-0x215C>    " ⅜
+\\5/8    <char-0x215D>    " ⅝
+\\7/8    <char-0x215E>    " ⅞
 
 " arrows {{{1
-<--- <char-0x27F5> " ⟵
----> <char-0x27F6> " ⟶
-<--> <char-0x27F7> " ⟷
-<->  <char-0x2194> " ↔
--->  <char-0x2192> " →
-<--  <char-0x2190> " ←
---^  <char-0x2191> " ↑
---v  <char-0x2193> " ↓
-==>  <char-0x21D2> " ⇒
-<==  <char-0x21D0> " ⇐
-==^  <char-0x21D1> " ⇑
-==v  <char-0x21D3> " ⇓
-<=>  <char-0x21D4> " ⇔
-<=== <char-0x27F8> " ⟸
-===> <char-0x27F9> " ⟹
-<==> <char-0x27FA> " ⟺
-|-<  <char-0x21A4> " ↤
-|--< <char-0x21FB> " ⟻
-|->  <char-0x21A6> " ↦
-|--> <char-0x21FC> " ⟼
-|=<  <char-0x27FD> " ⟽
-|=>  <char-0x27FE> " ⟾
+\\<--- <char-0x27F5> " ⟵
+\\---> <char-0x27F6> " ⟶
+\\<--> <char-0x27F7> " ⟷
+\\<->  <char-0x2194> " ↔
+\\-->  <char-0x2192> " →
+\\<--  <char-0x2190> " ←
+\\--^  <char-0x2191> " ↑
+\\--v  <char-0x2193> " ↓
+\\==>  <char-0x21D2> " ⇒
+\\<==  <char-0x21D0> " ⇐
+\\==^  <char-0x21D1> " ⇑
+\\==v  <char-0x21D3> " ⇓
+\\<=>  <char-0x21D4> " ⇔
+\\<=== <char-0x27F8> " ⟸
+\\===> <char-0x27F9> " ⟹
+\\<==> <char-0x27FA> " ⟺
+\\|-<  <char-0x21A4> " ↤
+\\|--< <char-0x21FB> " ⟻
+\\|->  <char-0x21A6> " ↦
+\\|--> <char-0x21FC> " ⟼
+\\|=<  <char-0x27FD> " ⟽
+\\|=>  <char-0x27FE> " ⟾
 
 " grouping {{{1
-[[2   <char-0x27E6>    " ⟦
-]]2   <char-0x27E7>    " ⟧
-<<B   <char-0x27E8>    " ⟨   (big left angle)
->>B   <char-0x27E9>    " ⟩   (big right angle)
-((U    <char-0x239B>    " ⎛
-((M    <char-0x239C>    " ⎜
-((B    <char-0x239D>    " ⎝
-))U    <char-0x239E>    " ⎞
-))M    <char-0x239F>    " ⎟
-))B    <char-0x23A0>    " ⎠
-[[U    <char-0x23A1>    " ⎡
-[[M    <char-0x23A2>    " ⎢
-[[B    <char-0x23A3>    " ⎣
-]]U    <char-0x23A4>    " ⎤
-]]M    <char-0x23A5>    " ⎥
-]]B    <char-0x23A6>    " ⎦
-{{U    <char-0x23A7>    " ⎧
-{{M    <char-0x23A8>    " ⎨
-{{B    <char-0x23A9>    " ⎩
-}}U    <char-0x23AB>    " ⎫
-}}M    <char-0x23AC>    " ⎬
-}}B    <char-0x23AD>    " ⎭
-((V    <char-0xFE35>    " ︵
-))V    <char-0xFE36>    " ︶
-{{V    <char-0xFE37>    " ︷
-}}V    <char-0xFE38>    " ︸
-[[V    <char-0xFE39>    " ︹
-]]V    <char-0xFE3A>    " ︺
-<<V    <char-0xFE3F>    " ︿
->>V    <char-0xFE40>    " ﹀
+\\[2   <char-0x27E6>    " ⟦
+\\]2   <char-0x27E7>    " ⟧
+\\<B   <char-0x27E8>    " ⟨   (big left angle)
+\\>B   <char-0x27E9>    " ⟩   (big right angle)
+\\(U    <char-0x239B>    " ⎛
+\\(M    <char-0x239C>    " ⎜
+\\(B    <char-0x239D>    " ⎝
+\\)U    <char-0x239E>    " ⎞
+\\)M    <char-0x239F>    " ⎟
+\\)B    <char-0x23A0>    " ⎠
+\\[U    <char-0x23A1>    " ⎡
+\\[M    <char-0x23A2>    " ⎢
+\\[B    <char-0x23A3>    " ⎣
+\\]U    <char-0x23A4>    " ⎤
+\\]M    <char-0x23A5>    " ⎥
+\\]B    <char-0x23A6>    " ⎦
+\\{U    <char-0x23A7>    " ⎧
+\\{M    <char-0x23A8>    " ⎨
+\\{B    <char-0x23A9>    " ⎩
+\\}U    <char-0x23AB>    " ⎫
+\\}M    <char-0x23AC>    " ⎬
+\\}B    <char-0x23AD>    " ⎭
+\\(V    <char-0xFE35>    " ︵
+\\)V    <char-0xFE36>    " ︶
+\\{V    <char-0xFE37>    " ︷
+\\}V    <char-0xFE38>    " ︸
+\\[V    <char-0xFE39>    " ︹
+\\]V    <char-0xFE3A>    " ︺
+\\<V    <char-0xFE3F>    " ︿
+\\>V    <char-0xFE40>    " ﹀
 
 " miscellaneous symbols {{{1
-.|3    <char-0x22EE>    " ⋮ (vertical ellipsis)
-..3    <char-0x22EF>    " ⋯ (horizontal ellipsis)
-./3    <char-0x22F0>    " ⋰ (up right diagonal ellipsis)
-.\3    <char-0x22F1>    " ⋱ (down left diagonal ellipsis)
-..U    <char-0x2801>    " ⠁ (dot up)
-..M    <char-0x2802>    " ⠂ (dot middle)
-..B    <char-0x2840>    " ⡀ (dot bottom)
-[UL    <char-0x2308>    " ⌈ (left ceiling)
-[UR    <char-0x2309>    " ⌉ (right ceiling)
-[BL    <char-0x230A>    " ⌊ (left floor)
-[BR    <char-0x230B>    " ⌋ (right floor)
-__2    <char-0x23AF>    " ⎯ (horizontal line extension)
---2    <char-0x2500>    " ─ (light horizontal)
-==2    <char-0x2550>    " ═ (double horizontal)
-__B    <char-0x2015>    " ― (horizontal bar)
-||V    <char-0x2503>    " ┃ (vertical bar)
-||2    <char-0x2016>    " ‖ (double vertical bar)
-ARC    <char-0x2312>    " ⌒  (arc)
-QED    <char-0x220E>    " ∎ (qed, as in end-of-proof)
-TBT    <char-0x2023>    " ‣ (triangular bullet)
-INF    <char-0x221E>    " ∞ (infinity)
-PROP   <char-0x221D>    " ∝ (proportional)
-ANG0   <char-0x221F>    " ∟ (angle)
-ANG1   <char-0x2220>    " ∠ (angle)
-ANG2   <char-0x2221>    " ∡ (angle)
-PERP   <char-0x22A5>    " ⊥ (perpendicular)
-PEM    <char-0x2030>    " ‰ (permillage)
-DEGC   <char-0x2103>    " ℃
-DEGF   <char-0x2109>    " ℉
-OHM    <char-0x2126>    " Ω
-ANGS   <char-0x212B>    " Å
+\\.|3    <char-0x22EE>    " ⋮ (vertical ellipsis)
+\\..3    <char-0x22EF>    " ⋯ (horizontal ellipsis)
+\\./3    <char-0x22F0>    " ⋰ (up right diagonal ellipsis)
+\\.\\3    <char-0x22F1>    " ⋱ (down left diagonal ellipsis)
+\\..U    <char-0x2801>    " ⠁ (dot up)
+\\..M    <char-0x2802>    " ⠂ (dot middle)
+\\..B    <char-0x2840>    " ⡀ (dot bottom)
+\\[UL    <char-0x2308>    " ⌈ (left ceiling)
+\\[UR    <char-0x2309>    " ⌉ (right ceiling)
+\\[BL    <char-0x230A>    " ⌊ (left floor)
+\\[BR    <char-0x230B>    " ⌋ (right floor)
+\\__2    <char-0x23AF>    " ⎯ (horizontal line extension)
+\\--2    <char-0x2500>    " ─ (light horizontal)
+\\==2    <char-0x2550>    " ═ (double horizontal)
+\\__B    <char-0x2015>    " ― (horizontal bar)
+\\||V    <char-0x2503>    " ┃ (vertical bar)
+\\||2    <char-0x2016>    " ‖ (double vertical bar)
+\\ARC    <char-0x2312>    " ⌒  (arc)
+\\QED    <char-0x220E>    " ∎ (qed, as in end-of-proof)
+\\TBT    <char-0x2023>    " ‣ (triangular bullet)
+\\INF    <char-0x221E>    " ∞ (infinity)
+\\PROP   <char-0x221D>    " ∝ (proportional)
+\\ANG0   <char-0x221F>    " ∟ (angle)
+\\ANG1   <char-0x2220>    " ∠ (angle)
+\\ANG2   <char-0x2221>    " ∡ (angle)
+\\PERP   <char-0x22A5>    " ⊥ (perpendicular)
+\\PEM    <char-0x2030>    " ‰ (permillage)
+\\DEGC   <char-0x2103>    " ℃
+\\DEGF   <char-0x2109>    " ℉
+\\OHM    <char-0x2126>    " Ω
+\\ANGS   <char-0x212B>    " Å
 
 " operators {{{1
-UU.     <char-0x2A03> " ⨃
-UU+     <char-0x2A04> " ⨄
-UUI     <char-0x2229> " ∩ (intersection)
-UUU     <char-0x222A> " ∪ (union)
-UUN     <char-0x2229> " ∩ (n)
-II1     <char-0x222B> " ∫
-II2     <char-0x222C> " ∬
-II3     <char-0x222D> " ∭
-II4     <char-0x2A0C> " ⨌
-II-     <char-0x2A0D> " ⨍
-II=     <char-0x2A0E> " ⨎
-II/     <char-0x2A0F> " ⨏
-IO1     <char-0x222E> " ∮
-IO2     <char-0x222F> " ∯
-IO3     <char-0x2230> " ∰
-IOC     <char-0x2232> " ∲ (clockwise contour integral)
-IOW     <char-0x2233> " ∳ (counter-clockwise contour integral)
-IIU     <char-0x2320> " ⌠ (upper integral)
-IIM     <char-0x23AE> " ⎮ (middle integral)
-IIB     <char-0x2321> " ⌡ (bottom integral)
-RT2     <char-0x221A> " √ (square root)
-RT3     <char-0x221B> " ∛ (cube root)
-RT4     <char-0x221C> " ∜ (fourth root)
-SUM     <char-0x2211> " ∑ (summation)
-SMU     <char-0x23B2> " ⎲
-SMB     <char-0x23B3> " ⎳
-PAR     <char-0x2225> " ∥ (parallel to)
-PAN     <char-0x2226> " ∦ (not parallel to)
-SCAP    <char-0x2293> " ⨅ (square cap)
-SCUP    <char-0x2294> " ⨆ (square cup)
-XxX     <char-0x2A09> " ⨉ (big multiply)
-Xxx     <char-0x00D7> " × (multiply)
-PRD     <char-0x220F> " ∏ (product)
-..0     <char-0x2218> " ∘ (ring)
-..1     <char-0x2219> " ∙ (bullet)
-**S     <char-0x2217> " ∗ (asterisk operator)
-**B     <char-0x204E> " ⁎ (low asterisk)
-DDLT    <char-0x2206> " ∆ (delta, increment)
-DNBL    <char-0x2207> " ∇ (nabla)
-DAMD    <char-0x22C4> " ⋄ (diamond operator)
-R//     <char-0x2215> " ∕ (right division slash)
-L//     <char-0x2216> " ∖ (left division slash)
-''1     <char-0x2032> " ′ (prime)
-''2     <char-0x2033> " ″ (double prime)
-''3     <char-0x2034> " ‴ (triple prime)
-PDIF    <char-0x2202> " ∂ (partial differential)
-JON     <char-0x2A1D> " ⨝ (join)
-TEF     <char-0x2234> " ∴ (therefore)
-BCS     <char-0x2235> " ∵ (because)
-RTO     <char-0x2236> " ∶ (ratio)
-PRO     <char-0x2237> " ∷ (proportion)
+\\U.     <char-0x2A03> " ⨃
+\\U+     <char-0x2A04> " ⨄
+\\UI     <char-0x2229> " ∩ (intersection)
+\\UU     <char-0x222A> " ∪ (union)
+\\UN     <char-0x2229> " ∩ (n)
+\\I1     <char-0x222B> " ∫
+\\I2     <char-0x222C> " ∬
+\\I3     <char-0x222D> " ∭
+\\I4     <char-0x2A0C> " ⨌
+\\I-     <char-0x2A0D> " ⨍
+\\I=     <char-0x2A0E> " ⨎
+\\I/     <char-0x2A0F> " ⨏
+\\O1     <char-0x222E> " ∮
+\\O2     <char-0x222F> " ∯
+\\O3     <char-0x2230> " ∰
+\\OC     <char-0x2232> " ∲ (clockwise contour integral)
+\\OW     <char-0x2233> " ∳ (counter-clockwise contour integral)
+\\IU     <char-0x2320> " ⌠ (upper integral)
+\\IM     <char-0x23AE> " ⎮ (middle integral)
+\\IB     <char-0x2321> " ⌡ (bottom integral)
+\\RT2    <char-0x221A> " √ (square root)
+\\RT3    <char-0x221B> " ∛ (cube root)
+\\RT4    <char-0x221C> " ∜ (fourth root)
+\\.0     <char-0x2218> " ∘ (ring)
+\\.1     <char-0x2219> " ∙ (bullet)
+\\*0     <char-0x2217> " ∗ (asterisk operator)
+\\*B     <char-0x204E> " ⁎ (low asterisk)
+\\'1     <char-0x2032> " ′ (prime)
+\\'2     <char-0x2033> " ″ (double prime)
+\\'3     <char-0x2034> " ‴ (triple prime)
+\\DDLT    <char-0x2206> " ∆ (delta, increment)
+\\DNBL    <char-0x2207> " ∇ (nabla)
+\\DAMD    <char-0x22C4> " ⋄ (diamond operator)
+\\RDV     <char-0x2215> " ∕ (right division slash)
+\\LDV     <char-0x2216> " ∖ (left division slash)
+\\PDIF    <char-0x2202> " ∂ (partial differential)
+\\JON     <char-0x2A1D> " ⨝ (join)
+\\TEF     <char-0x2234> " ∴ (therefore)
+\\BCS     <char-0x2235> " ∵ (because)
+\\RTO     <char-0x2236> " ∶ (ratio)
+\\PRO     <char-0x2237> " ∷ (proportion)
+\\SUM     <char-0x2211> " ∑ (summation)
+\\SMU     <char-0x23B2> " ⎲
+\\SMB     <char-0x23B3> " ⎳
+\\PAR     <char-0x2225> " ∥ (parallel to)
+\\PAN     <char-0x2226> " ∦ (not parallel to)
+\\SCAP    <char-0x2293> " ⨅ (square cap)
+\\SCUP    <char-0x2294> " ⨆ (square cup)
+\\XX      <char-0x2A09> " ⨉ (big multiply)
+\\xx      <char-0x00D7> " × (multiply)
+\\PRD     <char-0x220F> " ∏ (product)
+\\PI      <char-0x>
 
 
 " relationals {{{1
-=<=    <char-0x2264> " ≤
-=>=    <char-0x2265> " ≥
-=<~    <char-0x2A9D> " ⪝
-=>~    <char-0x2A9E> " ⪞
-=<<    <char-0x226A> " ≪ (much less than)
-=>>    <char-0x226B> " ≫ (much greater than)
-~~1    <char-0x223c> " ∼ (tilde operator)
-~~N    <char-0x2241> " ≁ (not tilde)
-~~R    <char-0x223d> " ∽ (reversed tilde operator)
-~-~    <char-0x2242> " ≂ (minus over tilde)
-~~-    <char-0x2243> " ≃ (tilde over minus)
-~~=    <char-0x2245> " ≅ (approximately equal to)
-~!-    <char-0x2244> " ≄ (not approximately equal to)
-~!~    <char-0x2249> " ≉ (not almost equal to)
-~~2    <char-0x2248> " ≈ (almost equal to)
-=.=    <char-0x2250> " ≐ (approaches the limit)
-=A=    <char-0x2259> " ≙ (estimates)
-=<>    <char-0x2276> " ≶ (lesser-than over greater-than)
-=><    <char-0x2277> " ≷ (greater-than over lesser-than)
-=!=    <char-0x2260> " ≠ (not equal)
-=!<    <char-0x226E> " ≮ (not less than)
-=!>    <char-0x226F> " ≯ (not greater than)
-=!<=   <char-0x2270> " ≰ (not less than or equal)
-=!>=   <char-0x2271> " ≱ (not greater than or equal)
-=3=    <char-0x2261> " ≡ (identical to)
-=3!=   <char-0x2262> " ≢ (not identical to)
-=+-    <char-0x00B1> " ± (plus-minus)
-=-+    <char-0x2213> " ∓ (minus-plus)
-Oo+    <char-0x2295> " ⊕ (O-plus)
-Oo-    <char-0x2296> " ⊖ (O-minus)
-Oox    <char-0x2297> " ⊗ (O-times)
-Oo/    <char-0x2298> " ⊘ (O-division)
-Oo.    <char-0x2299> " ⊙ (O-dot)
-Ooo    <char-0x229A> " ⊚ (O-ring)
-OO.    <char-0x2A00> " ⨀
-OO+    <char-0x2A01> " ⨁
-OOx    <char-0x2A02> " ⨂
-PREC   <char-0x227A> " ≺ (precedes)
-PSUC   <char-0x227B> " ≻ (succeeds)
-EQV    <char-0x224D> " ≍
-JOIN   <char-0x22C8> " ⋈  (join)
+\\<=    <char-0x2264> " ≤
+\\>=    <char-0x2265> " ≥
+\\<~    <char-0x2A9D> " ⪝
+\\>~    <char-0x2A9E> " ⪞
+\\<<    <char-0x226A> " ≪ (much less than)
+\\>>    <char-0x226B> " ≫ (much greater than)
+\\~1    <char-0x223c> " ∼ (tilde operator)
+\\~N    <char-0x2241> " ≁ (not tilde)
+\\~R    <char-0x223d> " ∽ (reversed tilde operator)
+\\-~    <char-0x2242> " ≂ (minus over tilde)
+\\~-    <char-0x2243> " ≃ (tilde over minus)
+\\~=    <char-0x2245> " ≅ (approximately equal to)
+\\!-    <char-0x2244> " ≄ (not approximately equal to)
+\\!~    <char-0x2249> " ≉ (not almost equal to)
+\\~2    <char-0x2248> " ≈ (almost equal to)
+\\.=    <char-0x2250> " ≐ (approaches the limit)
+\\A=    <char-0x2259> " ≙ (estimates)
+\\<>    <char-0x2276> " ≶ (lesser-than over greater-than)
+\\><    <char-0x2277> " ≷ (greater-than over lesser-than)
+\\!=    <char-0x2260> " ≠ (not equal)
+\\!<    <char-0x226E> " ≮ (not less than)
+\\!>    <char-0x226F> " ≯ (not greater than)
+\\!<=   <char-0x2270> " ≰ (not less than or equal)
+\\!>=   <char-0x2271> " ≱ (not greater than or equal)
+\\==3   <char-0x2261> " ≡ (identical to)
+\\!=3   <char-0x2262> " ≢ (not identical to)
+\\+-    <char-0x00B1> " ± (plus-minus)
+\\-+    <char-0x2213> " ∓ (minus-plus)
+\\o+    <char-0x2295> " ⊕ (O-plus)
+\\o-    <char-0x2296> " ⊖ (O-minus)
+\\ox    <char-0x2297> " ⊗ (O-times)
+\\o/    <char-0x2298> " ⊘ (O-division)
+\\o.    <char-0x2299> " ⊙ (O-dot)
+\\oo    <char-0x229A> " ⊚ (O-ring)
+\\O.    <char-0x2A00> " ⨀ 
+\\O+    <char-0x2A01> " ⨁
+\\Ox    <char-0x2A02> " ⨂
+\\PREC   <char-0x227A> " ≺ (precedes)
+\\PSUC   <char-0x227B> " ≻ (succeeds)
+\\EQV    <char-0x224D> " ≍
+\\JOIN   <char-0x22C8> " ⋈  (join)
 
 " sets {{{1
-SUBO    <char-0x2282> " ⊂ (subset of)
-SUBE    <char-0x2286> " ⊆ (equal to or subset of)
-SUBN    <char-0x2284> " ⊄ (not subset of)
-SUBX    <char-0x2288> " ⊈ (not equal to or subset of)
-SUPO    <char-0x2283> " ⊃ (superset of)
-SUPE    <char-0x2287> " ⊇ (equal to or superset of)
-SUPN    <char-0x2285> " ⊅ (not superset of)
-SUPX    <char-0x2289> " ⊉ (not equal to or superset of)
-LAND    <char-0x2227> " ∧ (logical and)
-LOR     <char-0x2228> " ∨ (logical or)
-LNOT    <char-0x00ac> " ¬ (logical not)
-LXOR    <char-0x2295> " ⊕ (logical xor)
-SEXT    <char-0x2203> " ∃ (there exists)
-SEXN    <char-0x2204> " ∄ (not exists)
-SEMP    <char-0x2205> " ∅ (empty set)
-SEMO    <char-0x2208> " ∈ (element of)
-SELN    <char-0x2209> " ∉ (not element of)
-SALL    <char-0x2200> " ∀ (all)
-NNC     <char-0x2102> " ℂ (complex numbers)
-NNH     <char-0x210D> " ℍ
-NNN     <char-0x2115> " ℕ (natural numbers, {1,2,3,4,...})
-NNR     <char-0x211D> " ℝ (real numbers)
-NNQ     <char-0x211A> " ℚ (rational fractions, p/q, where p,q ∈ ℤ)
-NNZ     <char-0x2124> " ℤ (integers, {...,-4,-3,-2,-1,0,1,2,3,4,...})
-NSH    <char-0x210B>    " ℋ (script H)
-NSI    <char-0x2111>    " ℑ (script I)
-NSL    <char-0x2112>    " ℒ (script L)
-NSR    <char-0x211C>    " ℜ (script R)
-SBOT   <char-0x22A5>    " ⊥ (Bottom)
-STOP   <char-0x22A4>    " ⊤ (Top)
-SDER   <char-0x22A2>    " ⊢ (is derived from)
-SENT   <char-0x22A7>    " ⊧ (entails)
+\\SUBO    <char-0x2282> " ⊂ (subset of)
+\\SUBE    <char-0x2286> " ⊆ (equal to or subset of)
+\\SUBN    <char-0x2284> " ⊄ (not subset of)
+\\SUBX    <char-0x2288> " ⊈ (not equal to or subset of)
+\\SUPO    <char-0x2283> " ⊃ (superset of)
+\\SUPE    <char-0x2287> " ⊇ (equal to or superset of)
+\\SUPN    <char-0x2285> " ⊅ (not superset of)
+\\SUPX    <char-0x2289> " ⊉ (not equal to or superset of)
+\\AND    <char-0x2227> " ∧ (logical and)
+\\OR     <char-0x2228> " ∨ (logical or)
+\\NOT    <char-0x00ac> " ¬ (logical not)
+\\XOR    <char-0x2295> " ⊕ (logical xor)
+\\EXT    <char-0x2203> " ∃ (there exists)
+\\EXN    <char-0x2204> " ∄ (not exists)
+\\EMP    <char-0x2205> " ∅ (empty set)
+\\EMO    <char-0x2208> " ∈ (element of)
+\\ELN    <char-0x2209> " ∉ (not element of)
+\\ALL    <char-0x2200> " ∀ (all)
+\\NC     <char-0x2102> " ℂ (complex numbers)
+\\NH     <char-0x210D> " ℍ
+\\NN     <char-0x2115> " ℕ (natural numbers, {1,2,3,4,...})
+\\NR     <char-0x211D> " ℝ (real numbers)
+\\NQ     <char-0x211A> " ℚ (rational fractions, p/q, where p,q ∈ ℤ)
+\\NZ     <char-0x2124> " ℤ (integers, {...,-4,-3,-2,-1,0,1,2,3,4,...})
+\\SH    <char-0x210B>    " ℋ (script H)
+\\SI    <char-0x2111>    " ℑ (script I)
+\\SL    <char-0x2112>    " ℒ (script L)
+\\SR    <char-0x211C>    " ℜ (script R)
+\\BOT   <char-0x22A5>    " ⊥ (Bottom)
+\\TOP   <char-0x22A4>    " ⊤ (Top)
+\\DER   <char-0x22A2>    " ⊢ (is derived from)
+\\ENT   <char-0x22A7>    " ⊧ (entails)
+
+" Latex Math Symbols
+
