@@ -410,4 +410,51 @@ _x  <char-0x2093> " ₓ
 \\ENT   <char-0x22A7>    " ⊧ (entails)
 
 " Latex Math Symbols
+\\alpha      <char -0x03B1> " α greek small letter alpha
+\\beta       <char -0x03B2> " β greek small letter beta
+\\gamma      <char -0x03B3> " γ greek small letter gamma
+\\delta      <char -0x03B4> " δ greek small letter delta
+\\epsilon    <char -0x03F5> " ϵ greek small letter epsilon
+\\varepsilon <char -0x03B5> " ε greek small letter epsilon
+\\zeta       <char -0x03B6> " ζ greek small letter zeta
+\\eta        <char -0x03B7> " η greek small letter eta
+\\theta      <char -0x03B8> " θ greek small letter theta
+\\vartheta   <char -0x03D1> " ϑ greek small letter theta
+\\iota       <char -0x03B9> " ι greek small letter iota
+\\kappa      <char -0x03BA> " κ greek small letter kappa
+\\lambda     <char -0x03BB> " λ greek small letter lambda
+\\mu         <char -0x03BC> " μ greek small letter mu
+\\nu         <char -0x03BD> " ν greek small letter nu
+\\xi         <char -0x03BE> " ξ greek small letter xi
+\\pi         <char -0x03C0> " π greek small letter pi
+\\varpi      <char -0x03D6> " ϖ greek small letter pi
+\\rho        <char -0x03C1> " ρ greek small letter rho
+\\varrho     <char -0x03F1> " ϱ greek small letter rho
+\\sigma      <char -0x03C3> " σ greek small letter sigma
+\\varsigma   <char -0x03C2> " ς greek small letter final sigma
+\\tau        <char -0x03C4> " τ greek small letter tau
+\\upsilon    <char -0x03C5> " υ greek small letter upsilon
+\\phi        <char -0x03C6> " φ greek small letter phi
+\\varphi     <char -0x03D5> " ϕ greek small letter phi
+\\chi        <char -0x03C7> " χ greek small letter chi
+\\psi        <char -0x03C8> " ψ greek small letter psi
+\\omega      <char -0x03C9> " ω greek small letter omega
 
+\\Psi     <char -0x03A8>   " Ψ greek capital letter psi
+\\Delta   <char -0x0394>   " Δ greek capital letter delta
+\\Phi     <char -0x03A6>   " Φ greek capital letter phi
+\\Gamma   <char -0x0393>   " Γ greek capital letter gamma
+\\Xi      <char -0x039E>   " Ξ greek capital letter xi
+\\Lambda  <char -0x039B>   " Λ greek capital letter lambda
+\\Pi      <char -0x03A0>   " Π greek capital letter pi
+\\Sigma   <char -0x03A3>   " Σ greek capital letter sigma
+\\Theta   <char -0x0398>   " Θ greek capital letter theta
+\\Omega   <char -0x03A9>   " Ω greek capital letter omega
+\\Upsilon <char -0x03A5>   " Υ greek capital letter upsilon
+
+" Herbrew
+\\aleph   <char -0x03A3>   " Σ greek capital letter sigma
+א 
+\\beth    <char -0x0398>   " Θ greek capital letter theta
+\\daleth  <char -0x03A9>   " Ω greek capital letter omega
+\\gimel   <char -0x03A5>   " Υ greek capital letter upsilon

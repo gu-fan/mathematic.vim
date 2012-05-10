@@ -7,38 +7,38 @@ This is a vim keymap file contains mathematic symbols.
 
     Superscript : `1 => ¹
     Subscript   : _1 => ₁
-    Greek Alphabet: GGA => Α  , GGD => Δ
-                    GGa => α  , GGg => γ 
-    Fractions   : F1/2 => ½   , F1/3 => ⅓
-    Arrows      : <--  => ←   , --v  ==> ↓ , ==>  => ⇒   
-                  <--- => ⟵   , --^  ==> ↑ , ===> => ⟹
-    Grouping    : ((U  => ⎛   , ]]U  => ⎤  
-                  ((M  => ⎜   , ]]M  => ⎥ 
-                  ((B  => ⎝   , ]]B  => ⎦ 
-                  ((V  => ︵  , ]]V  => ︺
-    Misc        : .|3  => ⋮   , INF  => ∞
-                  ARC  => ⌒   , ANG1 => ∠
-                  DEGC =>  ℃  , DEGF =>  ℉
-                  OHM  =>  Ω  , ANGS =>  Å
-    Operator    : UU.  =>  ⨃  , UUU  => ∪ , UUN => ∩
-                  II1  =>  ∫  , II3  => ∭ , II= => ⨎
-                  IO1  =>  ∮  , IO3  => ∰ , IOW => ∳
-                  RT2  =>  √  , RT3  => ∛ , RT4 => ∜
-                  ''1  =>  ′  , ''2  => ″ , ''3 => ‴
-                  PDIF =>  ∂
-                  TEF  =>  ∴  , BCS  => ∵
-    Relations   : =<=  => ≤   , =>=  => ≥ , =!=  => ≠
-                  =<~  => ⪝   , =>~  => ⪞ , =!>  => ≯
-                  Oo+  => ⊕   , Oo-  => ⊖
-                  OO+  => ⨀   , OOX  => ⨂
-    Sets        : SUBO => ⊂   , SUBE => ⊆ , SUBN => ⊄
-                  SUPO => ⊃   , SUPX => ⊉
-                  LAND => ∧   , LOR  => ∨ , LNOT => ¬
-                  LXOR => ⊕
-                  SEXT => ∃   , SEXN => ∄ , SALL => ∀
-                  NNC  => ℂ   , NNH  => ℍ , NNR  => ℝ
-                  NSH  => ℋ   , NSI  => ℑ , NSL  => ℒ
-                  SBOT => ⊥   , STOP => ⊤ , SDER => ⊢
+    Greek Alphabet: \GA => Α  , \GD => Δ
+                    \Ga => α  , \Gg => γ 
+    Fractions   : \1/2 => ½   , \1/3 => ⅓
+    Arrows      : \<--  => ←   , \--v  ==> ↓ , \==>  => ⇒   
+                  \<--- => ⟵   , \--^  ==> ↑ , \===> => ⟹
+    Grouping    : \(U  => ⎛   , \]U  => ⎤  
+                  \(M  => ⎜   , \]M  => ⎥ 
+                  \(B  => ⎝   , \]B  => ⎦ 
+                  \(V  => ︵  , \]V  => ︺
+    Misc        : \.|3  => ⋮   , \INF  => ∞
+                  \ARC  => ⌒   , \ING1 => ∠
+                  \DEGC =>  ℃  , \IEGF =>  ℉
+                  \OHM  =>  Ω  , \INGS =>  Å
+    Operator    : \U.  =>  ⨃  , \UU  => ∪ , \UN => ∩
+                  \I1  =>  ∫  , \I3  => ∭ , \I= => ⨎
+                  \O1  =>  ∮  , \O3  => ∰ , \OW => ∳
+                  \RT2  =>  √ , \RT3  => ∛ , \RT4 => ∜
+                  \'1  =>  ′  , \'2  => ″ , \'3 => ‴
+                  \PDIF =>  ∂
+                  \TEF  =>  ∴  , \BCS  => ∵
+    Relations   : \<=  => ≤   , \>=  => ≥ , \!=  => ≠
+                  \<~  => ⪝   , \>~  => ⪞ , \!>  => ≯
+                  \o+  => ⊕   , \o-  => ⊖
+                  \O+  => ⨀   , \OX  => ⨂
+    Sets        : \SUBO => ⊂   , \SUBE => ⊆ , \SUBN => ⊄
+                  \SUPO => ⊃   , \SUPX => ⊉
+                  \AND => ∧   , \OR  => ∨ , \NOT => ¬
+                  \XOR => ⊕
+                  \EXT => ∃   , \EXN => ∄ , \ALL => ∀
+                  \NC  => ℂ   , \NH  => ℍ , \NR  => ℝ
+                  \SH  => ℋ   , \SI  => ℑ , \SL  => ℒ
+                  \BOT => ⊥   , \TOP => ⊤ , \DER => ⊢
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
