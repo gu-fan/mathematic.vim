@@ -410,51 +410,449 @@ _x  <char-0x2093> " ₓ
 \\ENT   <char-0x22A7>    " ⊧ (entails)
 
 " Latex Math Symbols
-\\alpha      <char -0x03B1> " α greek small letter alpha
-\\beta       <char -0x03B2> " β greek small letter beta
-\\gamma      <char -0x03B3> " γ greek small letter gamma
-\\delta      <char -0x03B4> " δ greek small letter delta
-\\epsilon    <char -0x03F5> " ϵ greek small letter epsilon
-\\varepsilon <char -0x03B5> " ε greek small letter epsilon
-\\zeta       <char -0x03B6> " ζ greek small letter zeta
-\\eta        <char -0x03B7> " η greek small letter eta
-\\theta      <char -0x03B8> " θ greek small letter theta
-\\vartheta   <char -0x03D1> " ϑ greek small letter theta
-\\iota       <char -0x03B9> " ι greek small letter iota
-\\kappa      <char -0x03BA> " κ greek small letter kappa
-\\lambda     <char -0x03BB> " λ greek small letter lambda
-\\mu         <char -0x03BC> " μ greek small letter mu
-\\nu         <char -0x03BD> " ν greek small letter nu
-\\xi         <char -0x03BE> " ξ greek small letter xi
-\\pi         <char -0x03C0> " π greek small letter pi
-\\varpi      <char -0x03D6> " ϖ greek small letter pi
-\\rho        <char -0x03C1> " ρ greek small letter rho
-\\varrho     <char -0x03F1> " ϱ greek small letter rho
-\\sigma      <char -0x03C3> " σ greek small letter sigma
-\\varsigma   <char -0x03C2> " ς greek small letter final sigma
-\\tau        <char -0x03C4> " τ greek small letter tau
-\\upsilon    <char -0x03C5> " υ greek small letter upsilon
-\\phi        <char -0x03C6> " φ greek small letter phi
-\\varphi     <char -0x03D5> " ϕ greek small letter phi
-\\chi        <char -0x03C7> " χ greek small letter chi
-\\psi        <char -0x03C8> " ψ greek small letter psi
-\\omega      <char -0x03C9> " ω greek small letter omega
+\\alpha      <char-0x03B1> " α greek small letter alpha
+\\beta       <char-0x03B2> " β greek small letter beta
+\\gamma      <char-0x03B3> " γ greek small letter gamma
+\\delta      <char-0x03B4> " δ greek small letter delta
+\\epsilon    <char-0x03F5> " ϵ greek small letter epsilon
+\\varepsilon <char-0x03B5> " ε greek small letter epsilon
+\\zeta       <char-0x03B6> " ζ greek small letter zeta
+\\eta        <char-0x03B7> " η greek small letter eta
+\\theta      <char-0x03B8> " θ greek small letter theta
+\\vartheta   <char-0x03D1> " ϑ greek small letter theta
+\\iota       <char-0x03B9> " ι greek small letter iota
+\\kappa      <char-0x03BA> " κ greek small letter kappa
+\\lambda     <char-0x03BB> " λ greek small letter lambda
+\\mu         <char-0x03BC> " μ greek small letter mu
+\\nu         <char-0x03BD> " ν greek small letter nu
+\\xi         <char-0x03BE> " ξ greek small letter xi
+\\pi         <char-0x03C0> " π greek small letter pi
+\\varpi      <char-0x03D6> " ϖ greek small letter pi
+\\rho        <char-0x03C1> " ρ greek small letter rho
+\\varrho     <char-0x03F1> " ϱ greek small letter rho
+\\sigma      <char-0x03C3> " σ greek small letter sigma
+\\varsigma   <char-0x03C2> " ς greek small letter final sigma
+\\tau        <char-0x03C4> " τ greek small letter tau
+\\upsilon    <char-0x03C5> " υ greek small letter upsilon
+\\phi        <char-0x03C6> " φ greek small letter phi
+\\varphi     <char-0x03D5> " ϕ greek small letter phi
+\\chi        <char-0x03C7> " χ greek small letter chi
+\\psi        <char-0x03C8> " ψ greek small letter psi
+\\omega      <char-0x03C9> " ω greek small letter omega
 
-\\Psi     <char -0x03A8>   " Ψ greek capital letter psi
-\\Delta   <char -0x0394>   " Δ greek capital letter delta
-\\Phi     <char -0x03A6>   " Φ greek capital letter phi
-\\Gamma   <char -0x0393>   " Γ greek capital letter gamma
-\\Xi      <char -0x039E>   " Ξ greek capital letter xi
-\\Lambda  <char -0x039B>   " Λ greek capital letter lambda
-\\Pi      <char -0x03A0>   " Π greek capital letter pi
-\\Sigma   <char -0x03A3>   " Σ greek capital letter sigma
-\\Theta   <char -0x0398>   " Θ greek capital letter theta
-\\Omega   <char -0x03A9>   " Ω greek capital letter omega
-\\Upsilon <char -0x03A5>   " Υ greek capital letter upsilon
+\\Psi     <char-0x03A8>   " Ψ greek capital letter psi
+\\Delta   <char-0x0394>   " Δ greek capital letter delta
+\\Phi     <char-0x03A6>   " Φ greek capital letter phi
+\\Gamma   <char-0x0393>   " Γ greek capital letter gamma
+\\Xi      <char-0x039E>   " Ξ greek capital letter xi
+\\Lambda  <char-0x039B>   " Λ greek capital letter lambda
+\\Pi      <char-0x03A0>   " Π greek capital letter pi
+\\Sigma   <char-0x03A3>   " Σ greek capital letter sigma
+\\Theta   <char-0x0398>   " Θ greek capital letter theta
+\\Omega   <char-0x03A9>   " Ω greek capital letter omega
+\\Upsilon <char-0x03A5>   " Υ greek capital letter upsilon
 
-" Herbrew
-\\aleph   <char -0x03A3>   " Σ greek capital letter sigma
-א 
-\\beth    <char -0x0398>   " Θ greek capital letter theta
-\\daleth  <char -0x03A9>   " Ω greek capital letter omega
-\\gimel   <char -0x03A5>   " Υ greek capital letter upsilon
+\\aleph   <char-0x05D0>   " א Hebrew letter aleph
+\\beth    <char-0x05D1>   " ב Hebrew letter beth
+\\daleth  <char-0x05D3>   " ד Hebrew letter daleth
+\\gimel   <char-0x05D2>   " ג Hebrew letter gimel
+
+" Binary operation
+
+\ast                 <char-0x2217>   "  ∗
+\star                <char-0x2605>   "  ★
+\cdot                <char-0x00b7>   "  ·
+\circ                <char-0x25e6>   "  ◦
+\bullet              <char-0x2022>   "  •
+\bigcirc             <char-0x25cb>   "  ○
+\diamond             <char-0x25ca>   "  ◊
+\times               <char-0x00d7>   "  ×
+\div                 <char-0x00f7>   "  ÷
+\centerdot           <char-0x00b7>   "  ·
+\circledast          <char-0x0000>   "  
+\circledcirc         <char-0x0000>   "  
+\circleddash         <char-0x0000>   " 
+\dotplus             <char-0x0000>   " 
+\divideontimes       <char-0x0000>   " 
+
+\pm                  <char-0x0000>   " 
+\mp                  <char-0x0000>   " 
+\amalg               <char-0x0000>   " 
+\odot                <char-0x0000>   " 
+\ominus              <char-0x0000>   " 
+\oplus               <char-0x0000>   " 
+\oslash              <char-0x0000>   " 
+\otimes              <char-0x0000>   " 
+\wr                  <char-0x0000>   " 
+\Box                 <char-0x0000>   " 
+\boxplus             <char-0x0000>   " 
+\boxminus            <char-0x0000>   " 
+\boxtimes            <char-0x0000>   " 
+\boxdot              <char-0x0000>   " 
+\square              <char-0x0000>   " 
+
+\cap                 <char-0x0000>   " 
+\cup                 <char-0x0000>   " 
+\uplus               <char-0x0000>   " 
+\sqcap               <char-0x0000>   " 
+\sqcup               <char-0x0000>   " 
+\wedge               <char-0x0000>   " 
+\vee                 <char-0x0000>   " 
+\dagger              <char-0x0000>   " 
+\ddagger             <char-0x0000>   " 
+\barwedge            <char-0x0000>   " 
+\curlywedge          <char-0x0000>   " 
+\Cap                 <char-0x0000>   " 
+\bot                 <char-0x0000>   " 
+\intercal            <char-0x0000>   " 
+\doublebarwedge      <char-0x0000>   " 
+
+\lhd                 <char-0x0000>   " 
+\rhd                 <char-0x0000>   " 
+\triangleleft        <char-0x0000>   " 
+\triangleright       <char-0x0000>   " 
+\unlhd               <char-0x0000>   " 
+\unrhd               <char-0x0000>   " 
+\bigtriangledown     <char-0x0000>   " 
+\bigtriangleup       <char-0x0000>   " 
+\setminus            <char-0x0000>   " 
+\veebar              <char-0x0000>   " 
+\curlyvee            <char-0x0000>   " 
+\Cup                 <char-0x0000>   " 
+\top                 <char-0x0000>   " 
+\rightthreetimes     <char-0x0000>   " 
+\leftthreetimes      <char-0x0000>   " 
+
+
+
+\equiv               <char-0x0000>   " 
+\cong                <char-0x0000>   " 
+\neq                 <char-0x0000>   " 
+\sim                 <char-0x0000>   " 
+\simeq               <char-0x0000>   " 
+\approx              <char-0x0000>   " 
+\asymp               <char-0x0000>   " 
+\doteq               <char-0x0000>   " 
+\propto              <char-0x0000>   " 
+\models              <char-0x0000>   " 
+
+\leq                 <char-0x0000>   " 
+\prec                <char-0x0000>   " 
+\preceq              <char-0x0000>   " 
+\ll                  <char-0x0000>   " 
+\subset              <char-0x0000>   " 
+\subseteq            <char-0x0000>   " 
+\sqsubset            <char-0x0000>   " 
+\sqsubseteq          <char-0x0000>   " 
+\dashv               <char-0x0000>   " 
+\in                  <char-0x0000>   " 
+
+\geq                 <char-0x0000>   " 
+\succ                <char-0x0000>   " 
+\succeq              <char-0x0000>   " 
+\gg                  <char-0x0000>   " 
+\supset              <char-0x0000>   " 
+\supseteq            <char-0x0000>   " 
+\sqsupset            <char-0x0000>   " 
+\sqsupseteq          <char-0x0000>   " 
+\vdash               <char-0x0000>   " 
+\ni                  <char-0x0000>   " 
+
+
+\perp                <char-0x0000>   " 
+\mid                 <char-0x0000>   " 
+\parallel            <char-0x0000>   " 
+\bowtie              <char-0x0000>   " 
+\Join                <char-0x0000>   " 
+\ltimes              <char-0x0000>   " 
+\rtimes              <char-0x0000>   " 
+\smile               <char-0x0000>   " 
+\frown               <char-0x0000>   " 
+\notin               <char-0x0000>   " 
+
+\approxeq            <char-0x0000>   " 
+\thicksim            <char-0x0000>   " 
+\backsim             <char-0x0000>   " 
+\backsimeq           <char-0x0000>   " 
+\triangleq           <char-0x0000>   " 
+\circeq              <char-0x0000>   " 
+\bumpeq              <char-0x0000>   " 
+\Bumpeq              <char-0x0000>   " 
+\doteqdot            <char-0x0000>   " 
+\thickapprox         <char-0x0000>   " 
+\fallingdotseq       <char-0x0000>   " 
+\risingdotseq        <char-0x0000>   " 
+\varpropto           <char-0x0000>   " 
+\therefore           <char-0x0000>   " 
+\because             <char-0x0000>   " 
+\eqcirc              <char-0x0000>   " 
+\neq                 <char-0x0000>   " 
+
+\leqq                <char-0x0000>   " 
+\leqslant            <char-0x0000>   " 
+\lessapprox          <char-0x0000>   " 
+\lll                 <char-0x0000>   " 
+\lessdot             <char-0x0000>   " 
+\lesssim             <char-0x0000>   " 
+\eqslantless         <char-0x0000>   " 
+\precsim             <char-0x0000>   " 
+\precapprox          <char-0x0000>   " 
+\Subset              <char-0x0000>   " 
+\subseteqq           <char-0x0000>   " 
+\sqsubset            <char-0x0000>   " 
+\preccurlyeq         <char-0x0000>   " 
+\curlyeqprec         <char-0x0000>   " 
+\blacktriangleleft   <char-0x0000>   " 
+\trianglelefteq      <char-0x0000>   " 
+\vartriangleleft     <char-0x0000>   " 
+
+\geqq                <char-0x0000>   " 
+\geqslant            <char-0x0000>   " 
+\gtrapprox           <char-0x0000>   " 
+\ggg                 <char-0x0000>   " 
+\gtrdot              <char-0x0000>   " 
+\gtrsim              <char-0x0000>   " 
+\eqslantgtr          <char-0x0000>   " 
+\succsim             <char-0x0000>   " 
+\succapprox          <char-0x0000>   " 
+\Supset              <char-0x0000>   " 
+\supseteqq           <char-0x0000>   " 
+\sqsupset            <char-0x0000>   " 
+\succcurlyeq         <char-0x0000>   " 
+\curlyeqsucc         <char-0x0000>   " 
+\blacktriangleright  <char-0x0000>   " 
+\trianglerighteq     <char-0x0000>   " 
+\vartriangleright    <char-0x0000>   " 
+
+\lessgtr             <char-0x0000>   " 
+\lesseqgtr           <char-0x0000>   " 
+\lesseqqgtr          <char-0x0000>   " 
+\gtreqqless          <char-0x0000>   " 
+\gtreqless           <char-0x0000>   " 
+\gtrless             <char-0x0000>   " 
+\backepsilon         <char-0x0000>   " 
+\between             <char-0x0000>   " 
+\pitchfork           <char-0x0000>   " 
+\shortmid            <char-0x0000>   " 
+\smallfrown          <char-0x0000>   " 
+\smallsmile          <char-0x0000>   " 
+\Vdash               <char-0x0000>   " 
+\vDash               <char-0x0000>   " 
+\Vvdash              <char-0x0000>   " 
+\shortparallel       <char-0x0000>   " 
+\nshortparallel      <char-0x0000>   " 
+
+\ncong               <char-0x0000>   " 
+\nmid                <char-0x0000>   " 
+\nparallel           <char-0x0000>   " 
+\nshortmid           <char-0x0000>   " 
+\nshortparallel      <char-0x0000>   " 
+\nsim                <char-0x0000>   " 
+\nVDash              <char-0x0000>   " 
+\nvDash              <char-0x0000>   " 
+\nvdash              <char-0x0000>   " 
+\ntriangleleft       <char-0x0000>   " 
+\ntrianglelefteq     <char-0x0000>   " 
+\ntriangleright      <char-0x0000>   " 
+\ntrianglerighteq    <char-0x0000>   " 
+
+\nleq                <char-0x0000>   " 
+\nleqq               <char-0x0000>   " 
+\nleqslant           <char-0x0000>   " 
+\nless               <char-0x0000>   " 
+\nprec               <char-0x0000>   " 
+\npreceq             <char-0x0000>   " 
+\precnapprox         <char-0x0000>   " 
+\precnsim            <char-0x0000>   " 
+\lnapprox            <char-0x0000>   " 
+\lneq                <char-0x0000>   " 
+\lneqq               <char-0x0000>   " 
+\lnsim               <char-0x0000>   " 
+\lvertneqq           <char-0x0000>   " 
+
+\ngeq                <char-0x0000>   " 
+\ngeqq               <char-0x0000>   " 
+\ngeqslant           <char-0x0000>   " 
+\ngtr                <char-0x0000>   " 
+\nsucc               <char-0x0000>   " 
+\nsucceq             <char-0x0000>   " 
+\succnapprox         <char-0x0000>   " 
+\succnsim            <char-0x0000>   " 
+\gnapprox            <char-0x0000>   " 
+\gneq                <char-0x0000>   " 
+\gneqq               <char-0x0000>   " 
+\gnsim               <char-0x0000>   " 
+\gvertneqq           <char-0x0000>   " 
+
+\nsubseteq           <char-0x0000>   " 
+\nsupseteq           <char-0x0000>   " 
+\nsubseteqq          <char-0x0000>   " 
+\nsupseteqq          <char-0x0000>   " 
+\subsetneq           <char-0x0000>   " 
+\supsetneq           <char-0x0000>   " 
+\subsetneqq          <char-0x0000>   " 
+\supsetneqq          <char-0x0000>   " 
+\varsubsetneq        <char-0x0000>   " 
+\varsupsetneq        <char-0x0000>   " 
+\varsubsetneqq       <char-0x0000>   " 
+\varsupsetneqq       <char-0x0000>   " 
+
+" arrows            
+\leftarrow           <char-0x0000>   " 
+\Leftarrow           <char-0x0000>   " 
+\rightarrow          <char-0x0000>   " 
+\Rightarrow          <char-0x0000>   " 
+\leftrightarrow      <char-0x0000>   " 
+\Leftrightarrow      <char-0x0000>   " 
+
+\longleftarrow       <char-0x0000>   " 
+\Longleftarrow       <char-0x0000>   " 
+\longrightarrow      <char-0x0000>   " 
+\Longrightarrow      <char-0x0000>   " 
+\longleftrightarrow  <char-0x0000>   " 
+\Longleftrightarrow  <char-0x0000>   " 
+
+\uparrow             <char-0x0000>   " 
+\Uparrow             <char-0x0000>   " 
+\downarrow           <char-0x0000>   " 
+\Downarrow           <char-0x0000>   " 
+\updownarrow         <char-0x0000>   " 
+\Updownarrow         <char-0x0000>   " 
+
+
+\mapsto              <char-0x0000>   " 
+\hookleftarrow       <char-0x0000>   " 
+\leftharpoonup       <char-0x0000>   " 
+\leftharpoondown     <char-0x0000>   " 
+\rightleftharpoons   <char-0x0000>   " 
+
+\longmapsto          <char-0x0000>   " 
+\hookrightarrow      <char-0x0000>   " 
+\rightharpoonup      <char-0x0000>   " 
+\rightharpoondown    <char-0x0000>   " 
+\leadsto             <char-0x0000>   " 
+
+\nearrow             <char-0x0000>   " 
+\searrow             <char-0x0000>   " 
+\swarrow             <char-0x0000>   " 
+\nwarrow             <char-0x0000>   " 
+
+\dashrightarrow      <char-0x0000>   " 
+\leftrightarrows     <char-0x0000>   " 
+\leftarrowtail       <char-0x0000>   " 
+\curvearrowleft      <char-0x0000>   " 
+\upuparrows          <char-0x0000>   " 
+\multimap            <char-0x0000>   " 
+\rightleftarrows     <char-0x0000>   " 
+\twoheadrightarrow   <char-0x0000>   " 
+\rightleftharpoons   <char-0x0000>   " 
+\Rsh                 <char-0x0000>   " 
+\downharpoonright    <char-0x0000>   " 
+
+\dashleftarrow       <char-0x0000>   " 
+\Lleftarrow          <char-0x0000>   " 
+\looparrowleft       <char-0x0000>   " 
+\circlearrowleft     <char-0x0000>   " 
+\upharpoonleft       <char-0x0000>   " 
+\leftrightsquigarrow <char-0x0000>   "  
+\rightrightarrows    <char-0x0000>   " 
+\rightarrowtail      <char-0x0000>   " 
+\curvearrowright     <char-0x0000>   " 
+\downdownarrows      <char-0x0000>   " 
+\rightsquigarrow     <char-0x0000>   " 
+
+
+\leftleftarrows      <char-0x0000>   " 
+\twoheadleftarrow    <char-0x0000>   " 
+\leftrightharpoons   <char-0x0000>   " 
+\Lsh                 <char-0x0000>   " 
+\downharpoonleft     <char-0x0000>   " 
+\rightrightarrows    <char-0x0000>   " 
+\rightleftarrows     <char-0x0000>   " 
+\looparrowright      <char-0x0000>   " 
+\circlearrowright    <char-0x0000>   " 
+\upharpoonright      <char-0x0000>   " 
+
+\nleftarrow          <char-0x0000>   " 
+\nRightarrow         <char-0x0000>   " 
+
+\nrightarrow         <char-0x0000>   " 
+\nleftrightarrow     <char-0x0000>   " 
+
+\nrightarrow         <char-0x0000>   " 
+\nleftrightarrow     <char-0x0000>   " 
+
+\infty               <char-0x0000>   " 
+\nabla               <char-0x0000>   " 
+\partial             <char-0x0000>   " 
+\eth                 <char-0x0000>   " 
+\clubsuit            <char-0x0000>   " 
+\diamondsuit         <char-0x0000>   " 
+\heartsuit           <char-0x0000>   " 
+\spadesuit           <char-0x0000>   " 
+\cdots               <char-0x0000>   " 
+
+\forall              <char-0x0000>   " 
+\exists              <char-0x0000>   " 
+\nexists             <char-0x0000>   " 
+\emptyset            <char-0x0000>   " 
+\varnothing          <char-0x0000>   " 
+\imath               <char-0x0000>   " 
+\jmath               <char-0x0000>   " 
+\ell                 <char-0x0000>   " 
+\iiiint              <char-0x0000>   " 
+
+\Bbbk                <char-0x0000>   " 
+\bigstar             <char-0x0000>   " 
+\diagdown            <char-0x0000>   " 
+\diagup              <char-0x0000>   " 
+\Diamond             <char-0x0000>   " 
+\Finv                <char-0x0000>   " 
+\Game                <char-0x0000>   " 
+\hbar                <char-0x0000>   " 
+\hslash              <char-0x0000>   " 
+
+\wp                  <char-0x0000>   " 
+\angle               <char-0x0000>   " 
+\measuredangle       <char-0x0000>   " 
+\sphericalangle      <char-0x0000>   " 
+\complement          <char-0x0000>   " 
+\triangledown        <char-0x0000>   " 
+\triangle            <char-0x0000>   " 
+\vartriangle         <char-0x0000>   " 
+\blacklozenge        <char-0x0000>   " 
+
+\vdots               <char-0x0000>   " 
+\ldots               <char-0x0000>   " 
+\iiint               <char-0x0000>   " 
+\iint                <char-0x0000>   " 
+
+\lozenge             <char-0x0000>   " 
+\mho                 <char-0x0000>   " 
+
+\blacksquare         <char-0x0000>   " 
+\blacktriangle       <char-0x0000>   " 
+
+\ddots               <char-0x0000>   " 
+\Im                  <char-0x0000>   " 
+\Re                  <char-0x0000>   " 
+
+\sharp               <char-0x0000>   " 
+\flat                <char-0x0000>   " 
+\natural             <char-0x0000>   " 
+
+\prime               <char-0x0000>   " 
+\square              <char-0x0000>   " 
+\surd                <char-0x0000>   " 
+
+\blacktrinagledown   <char-0x0000>   " 
+\backprime           <char-0x0000>   " 
+\circledS            <char-0x0000>   " 
+
+" styles             
+" mathcala           
+\mathcal             <char-0x0000>   " 
+\mathbb              <char-0x0000>   " 
+\mathfrak            <char-0x0000>   " 
+
+
