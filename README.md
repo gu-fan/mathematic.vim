@@ -52,7 +52,7 @@ Then you can make a mapping to use it.
     " stop use it
     map <leader>kn :set keymap=<CR>
     " view it's details, modify it at your convenience.
-    map <leader>kv :sp ~/.vim/keymap/mathematica.vim<CR>
+    map <leader>kvm :sp ~/.vim/keymap/mathematica.vim<CR>
 
 ':h keymap' for further details.
 
