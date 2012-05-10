@@ -42,8 +42,8 @@ This is a vim keymap file contains mathematic symbols.
 
     Latex math symbols:
         currently only letters.
-                  \alpha => α , \Omega => Ω
-                  \aleph => א
+                  \alpha => α , \Omega => Ω ,...
+                  \aleph => א ,...
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
