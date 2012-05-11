@@ -28,7 +28,7 @@ Short CMD  :
     Misc        : \.|3  => ⋮  , \INF  => ∞
                   \ARC  => ⌒  , \ANG  => ∠
                   \DEGC => ℃  , \DEGF => ℉
-                  \OHM  => Ω  , \MHO  => ℧  , \INGS =>  Å
+                  \OHM  => Ω  , \MHO  => ℧  , \ANGS =>  Å
     Operator    : \U.   => ⨃  , \UU  => ∪ , \UN => ∩
                   \I1   => ∫  , \I3  => ∭ , \I= => ⨎
                   \O1   => ∮  , \O3  => ∰ , \OW => ∳
