@@ -1,12 +1,21 @@
 ##INTRO:
 This is a vim keymap file contains mathematic symbols.
 
-    Modified from Charles E.'s math.vim
+Made some effor to reduce typing conflict.
 
-    Made some effor to reduce typing conflict.
+Superscript :
 
-    Superscript : `1 => ¹
-    Subscript   : _1 => ₁
+        `0 ⁰  `+ ⁺ ... ( 0-9 + - ( ) / ^ . , > < )
+        `a ᵃ  `A ᴬ ... ( a-z except q , Some of A-Z)
+
+Subscript   :
+
+        _0 ₀  _+ ₊ ... ( 0-9 + - ( ) / ^ )
+        _a ₐ  _e ₑ ... (a e h i k l m n o p r s t u v x)
+
+
+Short CMD  : 
+
     Greek Alphabet: \GA => Α  , \GD => Δ
                     \Ga => α  , \Gg => γ 
     Fractions   : \1/2 => ½   , \1/3 => ⅓
@@ -16,17 +25,17 @@ This is a vim keymap file contains mathematic symbols.
                   \(M  => ⎜   , \]M  => ⎥ 
                   \(B  => ⎝   , \]B  => ⎦ 
                   \(V  => ︵  , \]V  => ︺
-    Misc        : \.|3  => ⋮   , \INF  => ∞
-                  \ARC  => ⌒   , \ING1 => ∠
-                  \DEGC =>  ℃  , \IEGF =>  ℉
-                  \OHM  =>  Ω  , \INGS =>  Å
-    Operator    : \U.  =>  ⨃  , \UU  => ∪ , \UN => ∩
-                  \I1  =>  ∫  , \I3  => ∭ , \I= => ⨎
-                  \O1  =>  ∮  , \O3  => ∰ , \OW => ∳
-                  \RT2  =>  √ , \RT3  => ∛ , \RT4 => ∜
-                  \'1  =>  ′  , \'2  => ″ , \'3 => ‴
-                  \PDIF =>  ∂
-                  \TEF  =>  ∴  , \BCS  => ∵
+    Misc        : \.|3  => ⋮  , \INF  => ∞
+                  \ARC  => ⌒  , \ANG  => ∠
+                  \DEGC => ℃  , \DEGF => ℉
+                  \OHM  => Ω  , \MHO  => ℧  , \INGS =>  Å
+    Operator    : \U.   => ⨃  , \UU  => ∪ , \UN => ∩
+                  \I1   => ∫  , \I3  => ∭ , \I= => ⨎
+                  \O1   => ∮  , \O3  => ∰ , \OW => ∳
+                  \SQRT2 => √ , \SQRT3 => ∛ , \SQRT4 => ∜
+                  \'1   =>  ′ , \'2  => ″ , \'3 => ‴
+                  \PDIF =>  ∂ , \TEF  =>  ∴  , \BCS  => ∵
+                  \TMS  => ×  , \DIV  => ÷
     Relations   : \<=  => ≤   , \>=  => ≥ , \!=  => ≠
                   \<~  => ⪝   , \>~  => ⪞ , \!>  => ≯
                   \o+  => ⊕   , \o-  => ⊖
@@ -35,15 +44,22 @@ This is a vim keymap file contains mathematic symbols.
                   \SUPO => ⊃   , \SUPX => ⊉
                   \AND => ∧   , \OR  => ∨ , \NOT => ¬
                   \XOR => ⊕
-                  \EXT => ∃   , \EXN => ∄ , \ALL => ∀
-                  \NC  => ℂ   , \NH  => ℍ , \NR  => ℝ
-                  \SH  => ℋ   , \SI  => ℑ , \SL  => ℒ
-                  \BOT => ⊥   , \TOP => ⊤ , \DER => ⊢
+                  \EXTS => ∃   , \EXTN => ∄ , \FALL => ∀
+                  \BOT => ⊥   , \TOP => ⊤ , \LFT => ⊢
+    Style Fonts : 
+                  \BBA => 𝔸  , \BBH  => ℍ , \BBR  => ℝ
+                  \FKH => ℋ  , \FKI  => ℑ , \FKL  => ℒ
 
-    Latex math symbols:
-        currently only letters.
-                  \alpha => α , \Omega => Ω ,...
-                  \aleph => א ,...
+Latex CMD:
+
+    Based on Vim-Latex suite.
+    Only contains latex command which have corresponding unicode chars.
+    Fixed some incorrect mapping of Vim-Latex suite:
+    \bigodot \bigoplus \bigotimes \long...arrow
+
+    e.g: \neq  =>  ≠    ,  \Leftarrow =>   ⇐ ...
+    You can use Vim-Latex suite to check the command.
+
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
