@@ -71,7 +71,8 @@ Latex CMD:
 ## HOW TO USE:
 
 Extract to your ~/.vim folder.
-Then you can make a mapping to use it.
+
+You can make a mapping to use it easyier:
    
     " use it
     map <leader>km :set keymap=mathematic<CR>
