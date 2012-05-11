@@ -58,8 +58,10 @@ Latex CMD:
     \bigodot \bigoplus \bigotimes \long...arrow
 
     e.g: \neq  =>  ≠    ,  \Leftarrow =>   ⇐ ...
-    You can use Vim-Latex suite to check the command.
 
+    You can use Vim-Latex suite to check these command.
+    or this pdf of math symbols.
+    http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
