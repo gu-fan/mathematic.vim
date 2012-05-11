@@ -88,7 +88,7 @@ You can make a mapping to use it easyier:
     " stop use it
     map <leader>kn :set keymap=<CR>
     " view it's details, modify it at your convenience.
-    map <leader>kvm :sp ~/.vim/keymap/mathematica.vim<CR>
+    map <leader>kvm :sp ~/.vim/keymap/mathematic.vim<CR>
     
     " show inputting cmd:
     " set showcmd
