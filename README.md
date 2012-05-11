@@ -1,7 +1,8 @@
 ##INTRO:
 This is a vim keymap file contains mathematic symbols.
 
-Made some effor to reduce typing conflict.
+Based on Vim-LaTex suite and math.vim in vim.org
+Made some effor to reduce typing conflict and increase typing speed.
 
 Superscript :
 
@@ -57,7 +58,9 @@ Latex CMD:
     Fixed some incorrect mapping of Vim-Latex suite:
     \bigodot \bigoplus \bigotimes \long...arrow
 
-    e.g: \neq  =>  ≠    ,  \Leftarrow =>   ⇐ ...
+    e.g: \neq  =>  ≠    ,  \Leftarrow =>  ⇐
+         \mathbbA => 𝔸  ,  \mathfrakA =>  𝔄
+         ...
 
     You can use Vim-Latex suite to check these command.
     or this pdf of math symbols.
