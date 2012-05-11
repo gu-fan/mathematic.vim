@@ -77,11 +77,12 @@ Then you can make a mapping to use it.
     " view it's details, modify it at your convenience.
     map <leader>kvm :sp ~/.vim/keymap/mathematica.vim<CR>
     
-    " show inputting cmd
+    " show inputting cmd:
     " set showcmd
-    " if you need a longer time to inpu full code.
-    " set notimeout
+    " when a longer time for inputting is needed:
     " set timeoutlen=3000
+    " or disable inputting timeout:
+    " set notimeout
 
 ':h keymap' for further details.
 
