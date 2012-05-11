@@ -76,6 +76,12 @@ Then you can make a mapping to use it.
     map <leader>kn :set keymap=<CR>
     " view it's details, modify it at your convenience.
     map <leader>kvm :sp ~/.vim/keymap/mathematica.vim<CR>
+    
+    " show inputting cmd
+    " set showcmd
+    " if you need a longer time to inpu full code.
+    " set notimeout
+    " set timeoutlen=3000
 
 ':h keymap' for further details.
 
