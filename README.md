@@ -48,7 +48,7 @@ Short CMD  :
                   \EXTS => ∃   , \EXTN => ∄ , \FALL => ∀
                   \BOT => ⊥   , \TOP => ⊤ , \LFT => ⊢
     Style Fonts : 
-                  \BBA => 𝔸  , \BBH  => ℍ , \BBR  => ℝ
+                  \BBA => 𝔸  , \BBH  => ℍ , \BB0  => 𝟘
                   \FKH => ℋ  , \FKI  => ℑ , \FKL  => ℒ
 
 Latex CMD:
