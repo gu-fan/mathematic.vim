@@ -1,7 +1,8 @@
 ##INTRO:
 This is a vim keymap file contains mathematic symbols.
 
-Based on Vim-LaTex suite and math.vim in vim.org
+Based on Vim-LaTex suite and math.vim in vim.org,
+
 Made some effor to reduce typing conflict and increase typing speed.
 
 Superscript :
