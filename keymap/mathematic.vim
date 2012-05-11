@@ -4,7 +4,7 @@
 " Version: 1.0
 
 " NOTE: 
-" Based on Vim-Latex suite.
+" Based on Vim-Latex suite and math.vim
 " Only contains latex command which have corresponding unicode chars.
 " Fixed some incorrect mapping of Vim-Latex suite:
 " \bigodot \bigoplus \bigotimes \long...arrow
