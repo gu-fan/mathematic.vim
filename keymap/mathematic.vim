@@ -274,8 +274,8 @@ _x  <char-0x2093> " ₓ
 \\SUM       <char-0x2211> " ∑ (summation)
 \\SMU       <char-0x23B2> " ⎲
 \\SMB       <char-0x23B3> " ⎳
-\\PAR       <char-0x2225> " ∥ (parallel to)
-\\PAN       <char-0x2226> " ∦ (not parallel to)
+\\PARL      <char-0x2225> " ∥ (parallel to)
+\\PARN      <char-0x2226> " ∦ (not parallel to)
 \\SCAP      <char-0x2293> " ⨅ (square cap)
 \\SCUP      <char-0x2294> " ⨆ (square cup)
 \\BIGX      <char-0x2A09> " ⨉ (big multiply)
