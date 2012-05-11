@@ -85,5 +85,6 @@ Then you can make a mapping to use it.
 
 ':h keymap' for further details.
 
-Post issues and suggestions at https://github.com/Rykka/mathematic.vim
-If you want add some keymap CMD , please post it's CMD and Charactes.
+Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
+
+To request adding keymap CMDS , please post CMD and Character.
