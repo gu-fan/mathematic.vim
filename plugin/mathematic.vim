@@ -23,7 +23,7 @@ fun! s:load_keymap() "{{{
     if empty(f)
         return []
     endif
-    return filter(readfile(f),'v:val=~''^\\.*''')
+    return filter(readfile(f),'v:val=~''<char-0x''')
 endfun "}}}
 let s:key_cache = s:load_keymap()
 
@@ -100,17 +100,16 @@ fun! s:helper.render() dict "{{{
     cal s:helper.prompt()
 endfun "}}}
 fun! s:helper.stats() dict "{{{
+    let &l:statusline="Mathematic matching nums : ". len(s:cur_keys)
 endfun "}}}
 fun! s:helper.prompt() dict "{{{
     redraw
-    echohl Keyword
-    echo "k:"
-    echohl Normal
-    echon s:input
+    echohl Keyword | echo "k:" | echohl Normal | echon s:input
 endfun "}}}
 fun! s:helper.content() dict "{{{
     1,$d_
-    call setline(1,filter(copy(s:key_cache),'v:val=~s:input'))
+    let s:cur_keys = filter(copy(s:key_cache),'v:val=~s:input')
+    call setline(1,s:cur_keys)
 endfun "}}}
 
 fun! s:get_buf(name) "{{{
