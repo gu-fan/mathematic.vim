@@ -3,7 +3,7 @@ VERSION: 1.10
 
 This is a vim keymap file contains mathematic symbols.
 
-also contains a keyhelper for helping input symbols.
+also contains a keyhelper for help inputting.
 
 Made some effor to reduce typing conflict and increase typing speed.
 
