@@ -15,14 +15,19 @@ fun! s:load_keymap() "{{{
                 \"~/.vim/bundle/mathematic.vim/keymap/mathematic.vim",
                 \]
     for file in files
-        if filereadable(file)
-            try
-                return filter(readfile(file),'v:val=~''^\\.*''')
-            catch 
-            endtry
+        if filereadable(expand(file))
+            let f = expand(file)
+            break
         endif
     endfor
-    return []
+    if empty(f)
+        return []
+    endif
+    try
+        return filter(readfile(f),'v:val=~''^\\.*''')
+    catch /.*/
+        return []
+    endtry
 endfun "}}}
 let s:key_cache = s:load_keymap()
 
