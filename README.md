@@ -6,7 +6,6 @@ with some effort to reduce typing conflict and increase typing speed.
 
 Also contains a keyhelper for help inputting.
 
-
 - Superscript and Subscript :
 
         `0 ⁰  `+ ⁺ ... ( 0-9 + - ( ) / ^ . , > < )
