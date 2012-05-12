@@ -75,6 +75,12 @@ Latex CMD:
     or this pdf of math symbols.
     http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
+Misc Symbols:
+
+    By using KeyHelper. You can inputing more symbols.
+    From unicode char 0x2500 - 0x2800.
+    
+
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
 ## HOW TO USE:
@@ -100,10 +106,10 @@ Extract to your ~/.vim folder.
 ':h keymap' for further details.
 
 
-- Another way is using KeyHelper: (`<leader>/`)
+- Using KeyHelper: (`<leader>/`)
 
         It will dynamicly showing matching keymap with your input.
-        And press '<Enter>' in the KeyHelper window to add to file.
+        And press '<Enter>' in the KeyHelper window to append to file.
 
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 
