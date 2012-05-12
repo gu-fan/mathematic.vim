@@ -11,7 +11,7 @@ if !exists("g:mathematic_user_dir")
     let g:mathematic_user_dir = ""
 endif
 if !exists("g:mathematic_fuzzy_match")
-    let g:mathematic_fuzzy_match = 1
+    let g:mathematic_fuzzy_match = 0
 endif
 fun! s:load_keymap() "{{{
     let files = [
