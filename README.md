@@ -124,6 +124,8 @@ Extract to your ~/.vim folder.
         " let g:mathematic_user_dir = "~/.vim/myplug/keymap/mathematic.vim"
         " map KeyHelper with another mapping
         " nmap <leader>kk :KeyHelper<CR>
+        " if you want fuzzy matching
+        " let g:mathematic_fuzzymatch = 1
 
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 
