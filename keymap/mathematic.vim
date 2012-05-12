@@ -225,9 +225,9 @@ _x                       <char-0x2093> " ₓ
 \\DAMD                   <char-0x22C4> " ⋄  diamond operator
 \\RDV                    <char-0x2215> " ∕  right division slash
 \\LDV                    <char-0x2216> " ∖  left division slash
-\\PDIF                   <char-0x2202> " ∂  partial differential
+\\PDF                    <char-0x2202> " ∂  partial differential
 \\JON                    <char-0x2A1D> " ⨝  join
-\\TEF                    <char-0x2234> " ∴  therefore
+\\THF                    <char-0x2234> " ∴  therefore
 \\BCS                    <char-0x2235> " ∵  because
 \\RTO                    <char-0x2236> " ∶  ratio
 \\PRO                    <char-0x2237> " ∷  proportion
@@ -240,7 +240,7 @@ _x                       <char-0x2093> " ₓ
 \\SCAP                   <char-0x2293> " ⨅  square cap
 \\SCUP                   <char-0x2294> " ⨆  square cup
 \\BIGX                   <char-0x2A09> " ⨉  big multiply
-\\TMS                    <char-0x00D7> " ×  multiply
+\\MUL                    <char-0x00D7> " ×  multiply
 \\DIV                    <char-0x00F7> " ÷  divide
 \\DOTM                   <char-0x00B7> " ·  
 \\PRD                    <char-0x220F> " ∏  product
@@ -318,7 +318,9 @@ _x                       <char-0x2093> " ₓ
 \\BOT                    <char-0x22A5> " ⊥  DOWN TACK
 \\TOP                    <char-0x22A4> " ⊤  UP TACK
 \\-|                     <char-0x22A3> " ⊣  LEFT TACK
+\\LFT                    <char-0x22A3> " ⊣  LEFT TACK
 \\|-                     <char-0x22A2> " ⊢  RIGHT TACK
+\\RGT                    <char-0x22A2> " ⊢  RIGHT TACK
 \\|=                     <char-0x22A7> " ⊧  MODELS
 \\|==                    <char-0x22A8> " ⊨  TRUE
  
@@ -345,7 +347,7 @@ _x                       <char-0x2093> " ₓ
 \\QED                    <char-0x220E> " ∎ qed, as in end-of-proof
 \\TBT                    <char-0x2023> " ‣ triangular bullet
 \\INF                    <char-0x221E> " ∞ infinity
-\\PROP                   <char-0x221D> " ∝ proportional
+\\PRT                    <char-0x221D> " ∝ proportional
 \\ANG                    <char-0x2220> " ∠ angle
 \\ANGR                   <char-0x221F> " ∟ right angle
 \\ANGM                   <char-0x2221> " ∡ measured angle
@@ -364,8 +366,8 @@ _x                       <char-0x2093> " ₓ
 \\c/u                    <char-0x02106> " ℆  CADA UNA
 \\EUL                    <char-0x02107> " ℇ  EULER CONSTANT
 \\No                     <char-0x02116> " №  NUMERO SIGN
-\\OC                     <char-0x000A9> " ©  COPYRIGHT SIGN
-\\OP                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
+\\cO                     <char-0x000A9> " ©  COPYRIGHT SIGN
+\\pO                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
 \\TEL                    <char-0x02121> " ℡  TELEPHONE SIGN
 \\TELS                   <char-0x02706> " ✆  TELEPHONE LOCATION SIGN
 \\TM                     <char-0x02122> " ™  TRADE MARK SIGN

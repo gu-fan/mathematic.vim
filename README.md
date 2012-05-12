@@ -18,46 +18,55 @@ Made some effor to reduce typing conflict and increase typing speed.
 
 - Short CMD  :
 
-        Greek Alphabet: \GA  => Α , \GD   => Δ
-                        \Ga  => α , \Gg   => γ
+        Greek Alphabet:
+                    \GA  => Α , \GD   => Δ
+                    \Ga  => α , \Gg   => γ
 
-        Fractions   : \1/2   => ½ , \1/3 => ⅓
+        Fractions   :
+                    \1/2   => ½ , \1/3 => ⅓
+                    \2/3   => ⅔ , \3/5 => ⅗
 
-        Arrows      : \<--   => ← , \--v  => ↓  , \==>   => ⇒
-                    \<---  => ⟵ , \--^  => ↑  , \===>  => ⟹
+        Arrows      :
+                    \<--   => ←  , \--v => ↓  , \==>  => ⇒
+                    \<---  => ⟵  , \--^ => ↑  , \===> => ⟹
 
-        Grouping    : \(U    => ⎛ , \]U  => ⎤
-                    \(M    => ⎜ , \]M  => ⎥
-                    \(B    => ⎝ , \]B  => ⎦
+        Grouping    : 
+                    \(U    => ⎛  , \]U  => ⎤
+                    \(M    => ⎜  , \]M  => ⎥
+                    \(B    => ⎝  , \]B  => ⎦
                     \(V    => ︵ , \]V  => ︺
 
 
-        Operator    : \U.    => ⨃ , \UU   => ∪  , \UN  => ∩
+        Operator    :
+                    \U.    => ⨃ , \UU   => ∪  , \UN  => ∩
                     \I1    => ∫ , \I3   => ∭  , \I=  => ⨎
-                    \IO1    => ∮ , \IO3   => ∰  , \IOW  => ∳
+                    \IO1   => ∮ , \IO3  => ∰  , \IOW => ∳
+                    \PDF   => ∂ , \THF  => ∴  , \BCS => ∵
+                    \MUL   => × , \DIV  => ÷
                     \SQRT2 => √ , \SQRT3 => ∛ , \SQRT4 => ∜
-                    \'1    => ′ , \'2    => ″ , \'3  => ‴
-                    \PDIF  => ∂ , \TEF   => ∴ , \BCS   => ∵
-                    \TMS   => × , \DIV  => ÷
 
-        Relations   : \<=    => ≤ , \>=  => ≥   , \!=  => ≠
+        Relations   : 
+                    \<=    => ≤ , \>=  => ≥   , \!=  => ≠
                     \<~    => ⪝ , \>~  => ⪞   , \!>  => ≯
-                    \o+    => ⊕ , \o-  => ⊖
-                    \O+    => ⨀ , \OX  => ⨂
+                    \o+    => ⊕ , \o-  => ⊖   , \ox  => ⊗
+                    \O+    => ⨀ , \O+  => ⨁   , \OX  => ⨂
 
-        Sets        : \SUBO  => ⊂ , \SUBE => ⊆  , \SUBN => ⊄
-                    \SUPO  => ⊃ , \SUPX => ⊉
-                    \AND   => ∧ , \OR  => ∨   , \NOT => ¬
+        Sets        :
+                    \SUBO  => ⊂ , \SUBE => ⊆  , \SUBN => ⊄
+                    \SUPO  => ⊃ , \SUPE => ⊇  , \SUPX => ⊉
+                    \AND   => ∧ , \OR   => ∨  , \NOT  => ¬
                     \XOR   => ⊕
                     \EXTS  => ∃ , \EXTN => ∄  , \FALL => ∀
-                    \BOT   => ⊥ , \TOP => ⊤   , \|-  => ⊢
+                    \BOT   => ⊥ , \TOP => ⊤   , \LFT  => ⊣
+                    \RGT   => ⊢
 
-        Misc        : \.|3   => ⋮ , \INF  => ∞
+        Misc        :
+                    \INF  => ∞  , \PRT  => ∝
                     \ARC   => ⌒ , \ANG  => ∠
                     \DEGC  => ℃ , \DEGF => ℉
                     \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
                     \a/c   => ℀ , \a/s  => ℁  , \No   => №
-                    \TM    => ™
+                    \TM    => ™ , \cO   => © 
 
         Fonts       :
                     \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
@@ -69,9 +78,11 @@ Made some effor to reduce typing conflict and increase typing speed.
         Based on Vim-Latex suite.
         Only contains latex command which have corresponding unicode chars.
         Fixed some incorrect mapping of Vim-Latex suite:
-        \bigodot \bigoplus \bigotimes \long...arrow
+        (\bigodot \bigoplus \bigotimes \long...arrow \iint ...)
 
-        e.g: \neq  =>  ≠    ,  \Leftarrow =>  ⇐
+        e.g: 
+            \neq     => ≠  ,  \Leftarrow =>  ⇐
+            \simeq   => ≃  ,  \Re        =>  ℜ
             \mathbbA => 𝔸  ,  \mathfrakA =>  𝔄
             ...
 
