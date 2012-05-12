@@ -8,18 +8,16 @@ Based on Vim-LaTex suite and math.vim in vim.org,
 
 Made some effor to reduce typing conflict and increase typing speed.
 
-Superscript :
+- Superscript and Subscript :
 
         `0 ⁰  `+ ⁺ ... ( 0-9 + - ( ) / ^ . , > < )
         `a ᵃ  `A ᴬ ... ( a-z except q , Some of A-Z)
-
-Subscript   :
 
         _0 ₀  _+ ₊ ... ( 0-9 + - ( ) / ^ )
         _a ₐ  _e ₑ ... (a e h i k l m n o p r s t u v x)
 
 
-Short CMD  : 
+- Short CMD  : 
 
     Greek Alphabet: \GA  => Α , \GD   => Δ
                     \Ga  => α , \Gg   => γ
@@ -66,7 +64,7 @@ Short CMD  :
                   \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
                   \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
 
-Latex CMD:
+- Latex CMD:
 
     Based on Vim-Latex suite.
     Only contains latex command which have corresponding unicode chars.
@@ -81,7 +79,7 @@ Latex CMD:
     or this pdf of math symbols.
     http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
-KeyHelper(`:KeyHelper`):
+- Key Helper(`:KeyHelper`):
 
     KeyHelper makes inputting these symbols easier.
 
