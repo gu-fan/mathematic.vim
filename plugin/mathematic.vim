@@ -127,7 +127,7 @@ fun! s:helper.content() dict "{{{
     else
         let fuzzyinput = s:input
     endif
-    let s:cur_keys = filter(copy(s:key_cache),'v:val=~fuzzyinput')
+    let s:cur_keys = filter(copy(s:key_cache),'v:val=~?fuzzyinput')
     let len = len(s:cur_keys)
     if len==0
         resize 1
