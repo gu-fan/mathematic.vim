@@ -117,7 +117,7 @@ Extract to your ~/.vim folder.
 ':h keymap' for further details.
 
 
-- Using KeyHelper: (`:KeyHelper (<leader>/)`)
+- Using KeyHelper: (`:KeyHelper (<leader>\)`)
 
         " if your mathematic.vim is not in '~/.vim/bundle/' or '~/.vim/keymap'
         " then you should set g:mathematic_user_dir
