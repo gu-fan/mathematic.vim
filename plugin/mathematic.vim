@@ -32,8 +32,8 @@ fun! s:Enter()  "{{{
     let s:put_char = matchstr(getline('.'),'" \zs.')
     call s:helper.exit()
     wincmd p
-    exe "norm! xi".s:put_char."\<ESC>"
-    echo "replaced with " s:put_char
+    exe "norm! a".s:put_char."\<ESC>"
+    echo "append a " s:put_char
 endfun "}}}
 fun! s:Exit()  "{{{
     call s:helper.exit()
