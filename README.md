@@ -1,5 +1,6 @@
 ##INTRO:
 This is a vim keymap file contains mathematic symbols.
+also contains a keyhelper to help input symbols.
 
 Version: 1.10
 
@@ -83,7 +84,12 @@ Latex CMD:
 KeyHelper:
 
     By using KeyHelper. You can inputing these symbols easier.
-    and input more symbols from unicode char 0x2500 - 0x2800.
+
+    It will dynamicly showing matching keymap with your input.
+    And press '<Enter>' in the KeyHelper window to append to file.
+
+     And you can input more unicode symbols:
+     0x2500-0x2800,  0x1D100 - 0x1D1DD
     
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
@@ -113,8 +119,6 @@ Extract to your ~/.vim folder.
 
 - Using KeyHelper: (`KeyHelper: <leader>/`)
 
-        It will dynamicly showing matching keymap with your input.
-        And press '<Enter>' in the KeyHelper window to append to file.
 
         " if your mathematic.vim is not in '~/.vim/bundle/' or '~/.vim/keymap'
         " then you should set g:mathematic_user_dir
