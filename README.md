@@ -81,7 +81,7 @@ Latex CMD:
 
 Extract to your ~/.vim folder.
 
-You can make a mapping to use it easyier:
+- You can make a mapping to use it easyier:
    
     " use it
     map <leader>km :set keymap=mathematic<CR>
@@ -98,6 +98,12 @@ You can make a mapping to use it easyier:
     " set notimeout
 
 ':h keymap' for further details.
+
+
+- Another way is using KeyHelper by: `<leader>/`
+
+    It will dynamicly showing matching keymap with your input.
+    And press '<Enter>' in the KeyHelper window to add to file.
 
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 
