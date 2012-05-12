@@ -1,8 +1,10 @@
 ##INTRO:
-This is a vim keymap file contains mathematic symbols.
-also contains a keyhelper to help input symbols.
+VERSION: 1.10
 
-Version: 1.10
+This is a vim keymap file contains mathematic symbols.
+
+also contains a keyhelper for helping input symbols.
+
 
 Based on Vim-LaTex suite and math.vim in vim.org,
 
