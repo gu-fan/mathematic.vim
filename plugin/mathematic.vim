@@ -59,19 +59,16 @@ fun! s:helper.win() dict "{{{
         let c = nr2char(n)
         if c =~ '\w\|\s'
             let s:input .= c
-            call self.render()
         elseif n=="\<BS>"
             let s:input = s:input[:-2]
-            call self.render()
         elseif c=="\<C-W>"
             let s:input = join(split(s:input)[:-2])
-            call self.render()
         elseif c=="\<C-U>"
             let s:input = ""
-            call self.render()
         else
             let running = 0
         endif
+        call self.render()
     endwhile
 endfun "}}}
 fun! s:helper.map() dict "{{{
