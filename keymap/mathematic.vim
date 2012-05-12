@@ -1,7 +1,7 @@
 " Vim Keymap file for Mathematic useage
 " Credit:   Rykka G.F <Rykka10(at)gmail.com>
 " Last Updated: 2012-05-12
-" Version: 1.0
+" Version: 1.1
 
 " NOTE: 
 " Based on Vim-Latex suite and math.vim in vim.org
