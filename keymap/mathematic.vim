@@ -366,14 +366,22 @@ _x                       <char-0x2093> " ₓ
 \\c/u                    <char-0x02106> " ℆  CADA UNA
 \\EUL                    <char-0x02107> " ℇ  EULER CONSTANT
 \\No                     <char-0x02116> " №  NUMERO SIGN
-\\cO                     <char-0x000A9> " ©  COPYRIGHT SIGN
-\\pO                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
+\\CO                     <char-0x000A9> " ©  COPYRIGHT SIGN
+\\PO                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
+\\RO                     <char-0x000AE> " ®  Registered sign
 \\TEL                    <char-0x02121> " ℡  TELEPHONE SIGN
 \\TELS                   <char-0x02706> " ✆  TELEPHONE LOCATION SIGN
 \\TM                     <char-0x02122> " ™  TRADE MARK SIGN
 \\SM                     <char-0x02120> " ℠  SERVICE MARK
 \\FAX                    <char-0x0213B> " ℻  FACSIMILE SIGN
 \\info                   <char-0x02139> " ℹ  INFORMATION SOURCE
+\\AE                     <char-0x000c6> " Æ  Latin Capital letter Æ
+\\ae                     <char-0x000e6> " æ  Latin Small Letter Æ
+\\ff                     <char-0x0FB00> " ﬀ  LATIN SMALL LIGATURE FF
+\\fi                     <char-0x0FB01> " ﬁ  LATIN SMALL LIGATURE FI
+\\fl                     <char-0x0FB02> " ﬂ  LATIN SMALL LIGATURE FL
+\\ft                     <char-0x0FB05> " ﬅ  LATIN SMALL LIGATURE LONG S T
+\\st                     <char-0x0FB06> " ﬆ  LATIN SMALL LIGATURE SF
 " Greek upper case {{{2
 \\GA                     <char-0x0391> " Α greek capital letter alpha
 \\GB                     <char-0x0392> " Β greek capital letter beta

@@ -66,7 +66,8 @@ Made some effor to reduce typing conflict and increase typing speed.
                     \DEGC  => ℃ , \DEGF => ℉
                     \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
                     \a/c   => ℀ , \a/s  => ℁  , \No   => №
-                    \TM    => ™ , \cO   => © 
+                    \TM    => ™ , \CO   => ©  , \RO   => ®
+                    \AE    => Æ , \ae   => æ  , \fi   => ﬁ
 
         Fonts       :
                     \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
