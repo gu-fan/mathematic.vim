@@ -83,7 +83,7 @@ Latex CMD:
 
 KeyHelper:
 
-    By using KeyHelper. You can inputing these symbols easier.
+    KeyHelper makes inputting these symbols easier.
 
     It will dynamicly showing matching keymap with your input.
     And press '<Enter>' in the KeyHelper window to append to file.
