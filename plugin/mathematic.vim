@@ -10,6 +10,9 @@ set cpo&vim
 if !exists("g:mathematic_user_dir")
     let g:mathematic_user_dir = ""
 endif
+if !exists("g:mathematic_fuzzy_match")
+    let g:mathematic_fuzzy_match = 1
+endif
 fun! s:load_keymap() "{{{
     let files = [
                 \"~/.vim/keymap/mathematic.vim",
@@ -110,10 +113,20 @@ fun! s:helper.stats() dict "{{{
 endfun "}}}
 fun! s:helper.prompt() dict "{{{
     redraw
-    echohl Keyword | echo "k:" | echohl Normal | echon s:input
+    echohl Keyword 
+    if g:mathematic_fuzzy_match == 1
+        echo "f:" 
+    else
+        echo "k:" 
+    endif
+    echohl Normal | echon s:input
 endfun "}}}
 fun! s:helper.content() dict "{{{
-    let fuzzyinput = join(split(s:input,'.\zs'),'.*')
+    if g:mathematic_fuzzy_match == 1
+        let fuzzyinput = join(split(s:input,'.\zs'),'.*')
+    else
+        let fuzzyinput = s:input
+    endif
     let s:cur_keys = filter(copy(s:key_cache),'v:val=~fuzzyinput')
     let len = len(s:cur_keys)
     if len==0
