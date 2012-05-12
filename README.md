@@ -5,9 +5,6 @@ This is a vim keymap file contains mathematic symbols.
 
 also contains a keyhelper for helping input symbols.
 
-
-Based on Vim-LaTex suite and math.vim in vim.org,
-
 Made some effor to reduce typing conflict and increase typing speed.
 
 - Superscript and Subscript :
@@ -20,7 +17,7 @@ Made some effor to reduce typing conflict and increase typing speed.
 
 
 - Short CMD  : 
-
+>
     Greek Alphabet: \GA  => Α , \GD   => Δ
                     \Ga  => α , \Gg   => γ
 
@@ -65,6 +62,7 @@ Made some effor to reduce typing conflict and increase typing speed.
     Fonts       :
                   \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
                   \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
+> 
 
 - Latex CMD:
 
