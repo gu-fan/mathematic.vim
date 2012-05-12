@@ -37,7 +37,11 @@ fun! s:Enter()  "{{{
     call s:helper.exit()
     wincmd p
     exe "norm! a".char."\<ESC>"
-    echo "append a " char
+    echo "KeyHelper: "
+    echohl WarningMsg
+    echon   char
+    echohl Normal
+    echon " Appended."
 endfun "}}}
 fun! s:Exit()  "{{{
     call s:helper.exit()
@@ -83,6 +87,7 @@ endfun "}}}
 fun! s:helper.set() "{{{
 	setl noswf nonu nowrap nolist nospell nocuc wfh
 	setl fdc=0 fdl=99 tw=0 bt=nofile bh=unload
+	setl noma
 	if v:version > 702
 		setl nornu noudf cc=0
 	en
@@ -108,9 +113,24 @@ fun! s:helper.prompt() dict "{{{
     echohl Keyword | echo "k:" | echohl Normal | echon s:input
 endfun "}}}
 fun! s:helper.content() dict "{{{
+    let fuzzyinput = join(split(s:input,'.\zs'),'.*')
+    let s:cur_keys = filter(copy(s:key_cache),'v:val=~fuzzyinput')
+    let len = len(s:cur_keys)
+    if len==0
+        resize 1
+    elseif len <=4
+        exe "resize " len
+    elseif winheight(0)<=5
+        resize 5
+    endif
+    setl ma
     1,$d_
-    let s:cur_keys = filter(copy(s:key_cache),'v:val=~s:input')
-    call setline(1,s:cur_keys)
+    if len==0
+        call setline(1,"=== No Match ===")
+    else
+        call setline(1,s:cur_keys)
+    endif
+    setl noma
 endfun "}}}
 
 fun! s:get_buf(name) "{{{
