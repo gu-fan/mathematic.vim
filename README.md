@@ -83,27 +83,27 @@ Extract to your ~/.vim folder.
 
 - You can make a mapping to use it easyier:
    
-    " use it
-    map <leader>km :set keymap=mathematic<CR>
-    " stop use it
-    map <leader>kn :set keymap=<CR>
-    " view it's details, modify it at your convenience.
-    map <leader>kvm :sp ~/.vim/keymap/mathematic.vim<CR>
+        " use it
+        map <leader>km :set keymap=mathematic<CR>
+        " stop use it
+        map <leader>kn :set keymap=<CR>
+        " view it's details, modify it at your convenience.
+        map <leader>kvm :sp ~/.vim/keymap/mathematic.vim<CR>
     
-    " show inputting cmd:
-    " set showcmd
-    " when a longer time for inputting is needed:
-    " set timeoutlen=3000
-    " or disable inputting timeout:
-    " set notimeout
+        " show inputting cmd:
+        " set showcmd
+        " when a longer time for inputting is needed:
+        " set timeoutlen=3000
+        " or disable inputting timeout:
+        " set notimeout
 
 ':h keymap' for further details.
 
 
-- Another way is using KeyHelper by: `<leader>/`
+- Another way is using KeyHelper: (`<leader>/`)
 
-    It will dynamicly showing matching keymap with your input.
-    And press '<Enter>' in the KeyHelper window to add to file.
+        It will dynamicly showing matching keymap with your input.
+        And press '<Enter>' in the KeyHelper window to add to file.
 
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 
