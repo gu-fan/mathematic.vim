@@ -133,4 +133,4 @@ To request adding keymap CMDS , please post CMD and Character.
 ## TODO:
 
 - add more symbols
-- add more symbols descrptions.
+- add more descrptions.
