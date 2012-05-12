@@ -160,8 +160,8 @@ _x                       <char-0x2093> " ₓ
 " grouping {{{2
 \\[2                     <char-0x27E6> " ⟦
 \\]2                     <char-0x27E7> " ⟧
-\\<B                     <char-0x27E8> " ⟨   (big left angle)
-\\>B                     <char-0x27E9> " ⟩   (big right angle)
+\\<B                     <char-0x27E8> " ⟨ (big left angle)
+\\>B                     <char-0x27E9> " ⟩ (big right angle)
 \\(U                     <char-0x239B> " ⎛
 \\(M                     <char-0x239C> " ⎜
 \\(B                     <char-0x239D> " ⎝
