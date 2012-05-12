@@ -2,10 +2,10 @@
 VERSION: 1.10
 
 This is a vim keymap file contains mathematic symbols.
+with some effort to reduce typing conflict and increase typing speed.
 
-also contains a keyhelper for help inputting.
+Also contains a keyhelper for help inputting.
 
-Made some effor to reduce typing conflict and increase typing speed.
 
 - Superscript and Subscript :
 
