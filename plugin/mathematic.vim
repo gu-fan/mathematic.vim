@@ -64,7 +64,7 @@ fun! s:helper.win() dict "{{{
     while running
         let n = getchar()
         let c = nr2char(n)
-        if c =~ '\w\|\s'
+        if c =~ '\w\|[ \\''`_]'
             let s:input .= c
         elseif n=="\<BS>"
             let s:input = s:input[:-2]
@@ -127,6 +127,7 @@ fun! s:helper.content() dict "{{{
     else
         let fuzzyinput = s:input
     endif
+    let fuzzyinput = escape(fuzzyinput,'\')
     let s:cur_keys = filter(copy(s:key_cache),'v:val=~?fuzzyinput')
     let len = len(s:cur_keys)
     if len==0
