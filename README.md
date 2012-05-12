@@ -9,6 +9,7 @@ Made some effor to reduce typing conflict and increase typing speed.
 
 - Superscript and Subscript :
 
+
         `0 ⁰  `+ ⁺ ... ( 0-9 + - ( ) / ^ . , > < )
         `a ᵃ  `A ᴬ ... ( a-z except q , Some of A-Z)
 
@@ -16,8 +17,9 @@ Made some effor to reduce typing conflict and increase typing speed.
         _a ₐ  _e ₑ ... (a e h i k l m n o p r s t u v x)
 
 
-- Short CMD  : 
->
+- Short CMD  :
+
+
     Greek Alphabet: \GA  => Α , \GD   => Δ
                     \Ga  => α , \Gg   => γ
 
@@ -62,9 +64,10 @@ Made some effor to reduce typing conflict and increase typing speed.
     Fonts       :
                   \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
                   \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
-> 
+
 
 - Latex CMD:
+
 
     Based on Vim-Latex suite.
     Only contains latex command which have corresponding unicode chars.
@@ -80,6 +83,7 @@ Made some effor to reduce typing conflict and increase typing speed.
     http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
 - Key Helper(`:KeyHelper`):
+
 
     KeyHelper makes inputting these symbols easier.
 
