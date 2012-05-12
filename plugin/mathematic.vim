@@ -23,11 +23,7 @@ fun! s:load_keymap() "{{{
     if empty(f)
         return []
     endif
-    try
-        return filter(readfile(f),'v:val=~''^\\.*''')
-    catch /.*/
-        return []
-    endtry
+    return filter(readfile(f),'v:val=~''^\\.*''')
 endfun "}}}
 let s:key_cache = s:load_keymap()
 
