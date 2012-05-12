@@ -92,7 +92,7 @@ Also contains a keyhelper for help inputting.
 
 - Key Helper(`:KeyHelper`):
 
-        KeyHelper makes inputting these symbols easier.
+        KeyHelper makes viewing and inputting these symbols easier.
 
         It will dynamicly showing matching keymap with your input.
         And press '<Enter>' in the KeyHelper window to append to file.
@@ -100,8 +100,6 @@ Also contains a keyhelper for help inputting.
         And you can input more unicode symbols:
         0x2500-0x2800,  0x1D100 - 0x1D1DD
     
-
-**NOTE** view the keymap file (mathematic.vim) for detail mappings.
 
 ## HOW TO USE:
 
