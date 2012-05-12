@@ -102,3 +102,8 @@ You can make a mapping to use it easyier:
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 
 To request adding keymap CMDS , please post CMD and Character.
+
+## TODO:
+
+- add more symbols
+- add more symbols descrptions.
