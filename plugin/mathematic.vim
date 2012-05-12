@@ -9,12 +9,20 @@ let s:save_cpo = &cpo
 set cpo&vim
 
 fun! s:load_keymap() "{{{
-    let file  = expand("~/.vim/bundle/mathematic.vim/keymap/mathematic.vim")
-    try
-        return filter(readfile(file),'v:val=~''^\\.*''')
-    catch 
-        return []
-    endtry
+    let files = [
+                \"~/.vim/keymap/mathematic.vim",
+                \"~/.vim/localbundle/keymap/mathematic.vim",
+                \"~/.vim/bundle/mathematic.vim/keymap/mathematic.vim",
+                \]
+    for file in files
+        if filereadable(file)
+            try
+                return filter(readfile(file),'v:val=~''^\\.*''')
+            catch 
+            endtry
+        endif
+    endfor
+    return []
 endfun "}}}
 let s:key_cache = s:load_keymap()
 
