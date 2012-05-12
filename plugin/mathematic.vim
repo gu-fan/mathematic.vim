@@ -7,12 +7,15 @@
 "=============================================================
 let s:save_cpo = &cpo
 set cpo&vim
-
+if !exists("g:mathematic_user_dir")
+    let g:mathematic_user_dir = ""
+endif
 fun! s:load_keymap() "{{{
     let files = [
                 \"~/.vim/keymap/mathematic.vim",
                 \"~/.vim/localbundle/keymap/mathematic.vim",
                 \"~/.vim/bundle/mathematic.vim/keymap/mathematic.vim",
+                \g:mathematic_user_dir,
                 \]
     for file in files
         if filereadable(expand(file))
@@ -29,11 +32,12 @@ let s:key_cache = s:load_keymap()
 
 let s:map = [['<Enter>' , 'Enter'     ] ,['q' , 'Exit'     ] ,]
 fun! s:Enter()  "{{{
-    let s:put_char = matchstr(getline('.'),'" \zs.')
+    let nr = matchstr(getline('.'),'<char-\zs0x\x\+\ze>')
+    let char = nr2char(nr)
     call s:helper.exit()
     wincmd p
-    exe "norm! a".s:put_char."\<ESC>"
-    echo "append a " s:put_char
+    exe "norm! a".char."\<ESC>"
+    echo "append a " char
 endfun "}}}
 fun! s:Exit()  "{{{
     call s:helper.exit()
@@ -100,7 +104,7 @@ fun! s:helper.render() dict "{{{
     cal s:helper.prompt()
 endfun "}}}
 fun! s:helper.stats() dict "{{{
-    let &l:statusline="Mathematic matching nums : ". len(s:cur_keys)
+    let &l:statusline="%3*KeyHelper%* Matching Numbers : %1*". len(s:cur_keys)."%*"
 endfun "}}}
 fun! s:helper.prompt() dict "{{{
     redraw
@@ -125,7 +129,10 @@ fun! s:get_buf(name) "{{{
 endfun "}}}
 
 let mathematic#helper = s:helper
-map <leader>\ :cal mathematic#helper.win()<CR>
+command! -nargs=0   KeyHelper      call   mathematic#helper.win()
+if !hasmapto("KeyHelper<CR>", 'n') 
+    nmap <unique> <leader>\ :KeyHelper<CR>
+endif
 
 let &cpo = s:save_cpo
 unlet s:save_cpo

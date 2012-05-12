@@ -31,14 +31,10 @@ Short CMD  :
                   \(B    => ⎝ , \]B  => ⎦
                   \(V    => ︵ , \]V  => ︺
 
-    Misc        : \.|3   => ⋮ , \INF  => ∞
-                  \ARC   => ⌒ , \ANG  => ∠
-                  \DEGC  => ℃ , \DEGF => ℉
-                  \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
 
     Operator    : \U.    => ⨃ , \UU   => ∪  , \UN  => ∩
                   \I1    => ∫ , \I3   => ∭  , \I=  => ⨎
-                  \O1    => ∮ , \O3   => ∰  , \OW  => ∳
+                  \IO1    => ∮ , \IO3   => ∰  , \IOW  => ∳
                   \SQRT2 => √ , \SQRT3 => ∛ , \SQRT4 => ∜
                   \'1    => ′ , \'2    => ″ , \'3  => ‴
                   \PDIF  => ∂ , \TEF   => ∴ , \BCS   => ∵
@@ -54,9 +50,16 @@ Short CMD  :
                   \AND   => ∧ , \OR  => ∨   , \NOT => ¬
                   \XOR   => ⊕
                   \EXTS  => ∃ , \EXTN => ∄  , \FALL => ∀
-                  \BOT   => ⊥ , \TOP => ⊤   , \LFT => ⊢
+                  \BOT   => ⊥ , \TOP => ⊤   , \|-  => ⊢
 
-    Style Fonts :
+    Misc        : \.|3   => ⋮ , \INF  => ∞
+                  \ARC   => ⌒ , \ANG  => ∠
+                  \DEGC  => ℃ , \DEGF => ℉
+                  \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
+                  \a/c   => ℀ , \a/s  => ℁  , \No   => №
+                  \TM    => ™
+
+    Fonts       :
                   \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
                   \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
 
@@ -75,10 +78,10 @@ Latex CMD:
     or this pdf of math symbols.
     http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
-Misc Symbols:
+KeyHelper:
 
-    By using KeyHelper. You can inputing more symbols.
-    From unicode char 0x2500 - 0x2800.
+    By using KeyHelper. You can inputing these symbols easier.
+    and input more symbols from unicode char 0x2500 - 0x2800.
     
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
@@ -106,10 +109,16 @@ Extract to your ~/.vim folder.
 ':h keymap' for further details.
 
 
-- Using KeyHelper: (`<leader>/`)
+- Using KeyHelper: (`KeyHelper: <leader>/`)
 
         It will dynamicly showing matching keymap with your input.
         And press '<Enter>' in the KeyHelper window to append to file.
+
+        " if your mathematic.vim is not in '~/.vim/bundle/' or '~/.vim/keymap'
+        " then you should set g:mathematic_user_dir
+        " let g:mathematic_user_dir = "~/.vim/myplug/keymap/mathematic.vim"
+        " map KeyHelper with another mapping
+        " nmap <leader>kk :KeyHelper<CR>
 
 Post issues and suggestions at https://github.com/Rykka/mathematic.vim.
 

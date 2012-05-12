@@ -189,55 +189,6 @@ _x                       <char-0x2093> " ₓ
 \\<V                     <char-0xFE3F> " ︿
 \\>V                     <char-0xFE40> " ﹀
 
-" miscellaneous symbols {{{2
-\\.|3                    <char-0x22EE> " ⋮ vertical ellipsis
-\\..3                    <char-0x22EF> " ⋯ horizontal ellipsis
-\\./3                    <char-0x22F0> " ⋰ up right diagonal ellipsis
-\\.\\3                   <char-0x22F1> " ⋱ down left diagonal ellipsis
-\\..U                    <char-0x2801> " ⠁ dot up
-\\..M                    <char-0x2802> " ⠂ dot middle
-\\..B                    <char-0x2840> " ⡀ dot bottom
-\\[UL                    <char-0x2308> " ⌈ left ceiling
-\\[UR                    <char-0x2309> " ⌉ right ceiling
-\\[BL                    <char-0x230A> " ⌊ left floor
-\\[BR                    <char-0x230B> " ⌋ right floor
-\\__2                    <char-0x23AF> " ⎯ horizontal line extension
-\\--2                    <char-0x2500> " ─ light horizontal
-\\==2                    <char-0x2550> " ═ double horizontal
-\\__B                    <char-0x2015> " ― horizontal bar
-\\||V                    <char-0x2503> " ┃ vertical bar
-\\||2                    <char-0x2016> " ‖ double vertical bar
-\\ARC                    <char-0x2312> " ⌒ (arc
-\\QED                    <char-0x220E> " ∎ qed, as in end-of-proof
-\\TBT                    <char-0x2023> " ‣ triangular bullet
-\\INF                    <char-0x221E> " ∞ infinity
-\\PROP                   <char-0x221D> " ∝ proportional
-\\ANG                    <char-0x2220> " ∠ angle
-\\ANGR                   <char-0x221F> " ∟ right angle
-\\ANGM                   <char-0x2221> " ∡ measured angle
-\\ANGS                   <char-0x2222> " ∢ spherical angle
-\\PERP                   <char-0x22A5> " ⊥ perpendicular
-\\PEM                    <char-0x2030> " ‰ permillage
-\\ONC                    <char-0x2125> " ℥ OUNCE SIGN
-\\DEGC                   <char-0x2103> " ℃ DEGREE CELSIUS
-\\DEGF                   <char-0x2109> " ℉ DEGREE FAHRENHEIT
-\\OHM                    <char-0x2126> " Ω OHM SIGN
-\\MHO                    <char-0x2127> " ℧ INVERTED OHM SIGN
-\\ANGS                   <char-0x212B> " Å ANGSTROM SIGN
-\\A/C                    <char-0x02100> " ℀  ACCOUNT OF
-\\A/S                    <char-0x02101> " ℁  ADDRESSED TO THE SUBJECT
-\\C/O                    <char-0x02105> " ℅  CARE OF
-\\C/U                    <char-0x02106> " ℆  CADA UNA
-\\EUL                    <char-0x02107> " ℇ  EULER CONSTANT
-\\No                     <char-0x02116> " №  NUMERO SIGN
-\\OC                     <char-0x000A9> " ©  COPYRIGHT SIGN
-\\OP                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
-\\TEL                    <char-0x02121> " ℡  TELEPHONE SIGN
-\\TELS                   <char-0x02706> " ✆  TELEPHONE LOCATION SIGN
-\\TM                     <char-0x02122> " ™  TRADE MARK SIGN
-\\SM                     <char-0x02120> " ℠  SERVICE MARK
-\\FAX                    <char-0x0213B> " ℻  FACSIMILE SIGN
-\\info                   <char-0x02139> " ℹ  INFORMATION SOURCE
 " operators {{{2
 \\U.                     <char-0x2A03> " ⨃  N-ARY UNION OPERATOR WITH DOT
 \\U+                     <char-0x2A04> " ⨄  N-ARY UNION OPERATOR WITH PLUS
@@ -372,6 +323,55 @@ _x                       <char-0x2093> " ₓ
 \\|==                    <char-0x22A8> " ⊨  TRUE
  
 
+" miscellaneous symbols {{{2
+\\.|3                    <char-0x22EE> " ⋮ vertical ellipsis
+\\..3                    <char-0x22EF> " ⋯ horizontal ellipsis
+\\./3                    <char-0x22F0> " ⋰ up right diagonal ellipsis
+\\.\\3                   <char-0x22F1> " ⋱ down left diagonal ellipsis
+\\..U                    <char-0x2801> " ⠁ dot up
+\\..M                    <char-0x2802> " ⠂ dot middle
+\\..B                    <char-0x2840> " ⡀ dot bottom
+\\[UL                    <char-0x2308> " ⌈ left ceiling
+\\[UR                    <char-0x2309> " ⌉ right ceiling
+\\[BL                    <char-0x230A> " ⌊ left floor
+\\[BR                    <char-0x230B> " ⌋ right floor
+\\__2                    <char-0x23AF> " ⎯ horizontal line extension
+\\--2                    <char-0x2500> " ─ light horizontal
+\\==2                    <char-0x2550> " ═ double horizontal
+\\__B                    <char-0x2015> " ― horizontal bar
+\\||V                    <char-0x2503> " ┃ vertical bar
+\\||2                    <char-0x2016> " ‖ double vertical bar
+\\ARC                    <char-0x2312> " ⌒ (arc
+\\QED                    <char-0x220E> " ∎ qed, as in end-of-proof
+\\TBT                    <char-0x2023> " ‣ triangular bullet
+\\INF                    <char-0x221E> " ∞ infinity
+\\PROP                   <char-0x221D> " ∝ proportional
+\\ANG                    <char-0x2220> " ∠ angle
+\\ANGR                   <char-0x221F> " ∟ right angle
+\\ANGM                   <char-0x2221> " ∡ measured angle
+\\ANGS                   <char-0x2222> " ∢ spherical angle
+\\PERP                   <char-0x22A5> " ⊥ perpendicular
+\\PEM                    <char-0x2030> " ‰ permillage
+\\ONC                    <char-0x2125> " ℥ OUNCE SIGN
+\\DEGC                   <char-0x2103> " ℃ DEGREE CELSIUS
+\\DEGF                   <char-0x2109> " ℉ DEGREE FAHRENHEIT
+\\OHM                    <char-0x2126> " Ω OHM SIGN
+\\MHO                    <char-0x2127> " ℧ INVERTED OHM SIGN
+\\ANGS                   <char-0x212B> " Å ANGSTROM SIGN
+\\a/c                    <char-0x02100> " ℀  ACCOUNT OF
+\\a/s                    <char-0x02101> " ℁  ADDRESSED TO THE SUBJECT
+\\c/o                    <char-0x02105> " ℅  CARE OF
+\\c/u                    <char-0x02106> " ℆  CADA UNA
+\\EUL                    <char-0x02107> " ℇ  EULER CONSTANT
+\\No                     <char-0x02116> " №  NUMERO SIGN
+\\OC                     <char-0x000A9> " ©  COPYRIGHT SIGN
+\\OP                     <char-0x02117> " ℗  SOUND RECORDING COPYRIGHT
+\\TEL                    <char-0x02121> " ℡  TELEPHONE SIGN
+\\TELS                   <char-0x02706> " ✆  TELEPHONE LOCATION SIGN
+\\TM                     <char-0x02122> " ™  TRADE MARK SIGN
+\\SM                     <char-0x02120> " ℠  SERVICE MARK
+\\FAX                    <char-0x0213B> " ℻  FACSIMILE SIGN
+\\info                   <char-0x02139> " ℹ  INFORMATION SOURCE
 " Greek upper case {{{2
 \\GA                     <char-0x0391> " Α greek capital letter alpha
 \\GB                     <char-0x0392> " Β greek capital letter beta
@@ -1610,7 +1610,8 @@ _x                       <char-0x2093> " ₓ
 \\27FC              <char-0x27FC> " ⟼   Long rightward arrow from bar
 \\27FD              <char-0x27FD> " ⟽   Long leftward double arrow from bar
 \\27FE              <char-0x27FE> " ⟾   Long rightward double arrow from bar
-\\27FF              <char-0x27FF> " ⟿   Long rightward squiggle arrow
+\\27FF              <char-0x27FF> " ⟿\\|=                     <char-0x22A7> " ¿ MODELS
+   Long rightward squiggle arrow
 
 \\1D100             <char-0x1D100> " 𝄀   MUSICAL SYMBOL SINGLE BARLINE        
 \\1D101             <char-0x1D101> " 𝄁   MUSICAL SYMBOL DOUBLE BARLINE        
