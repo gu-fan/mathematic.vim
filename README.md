@@ -9,7 +9,6 @@ Made some effor to reduce typing conflict and increase typing speed.
 
 - Superscript and Subscript :
 
-
         `0 ⁰  `+ ⁺ ... ( 0-9 + - ( ) / ^ . , > < )
         `a ᵃ  `A ᴬ ... ( a-z except q , Some of A-Z)
 
@@ -19,79 +18,76 @@ Made some effor to reduce typing conflict and increase typing speed.
 
 - Short CMD  :
 
+        Greek Alphabet: \GA  => Α , \GD   => Δ
+                        \Ga  => α , \Gg   => γ
 
-    Greek Alphabet: \GA  => Α , \GD   => Δ
-                    \Ga  => α , \Gg   => γ
+        Fractions   : \1/2   => ½ , \1/3 => ⅓
 
-    Fractions   : \1/2   => ½ , \1/3 => ⅓
+        Arrows      : \<--   => ← , \--v  => ↓  , \==>   => ⇒
+                    \<---  => ⟵ , \--^  => ↑  , \===>  => ⟹
 
-    Arrows      : \<--   => ← , \--v  => ↓  , \==>   => ⇒
-                  \<---  => ⟵ , \--^  => ↑  , \===>  => ⟹
-
-    Grouping    : \(U    => ⎛ , \]U  => ⎤
-                  \(M    => ⎜ , \]M  => ⎥
-                  \(B    => ⎝ , \]B  => ⎦
-                  \(V    => ︵ , \]V  => ︺
+        Grouping    : \(U    => ⎛ , \]U  => ⎤
+                    \(M    => ⎜ , \]M  => ⎥
+                    \(B    => ⎝ , \]B  => ⎦
+                    \(V    => ︵ , \]V  => ︺
 
 
-    Operator    : \U.    => ⨃ , \UU   => ∪  , \UN  => ∩
-                  \I1    => ∫ , \I3   => ∭  , \I=  => ⨎
-                  \IO1    => ∮ , \IO3   => ∰  , \IOW  => ∳
-                  \SQRT2 => √ , \SQRT3 => ∛ , \SQRT4 => ∜
-                  \'1    => ′ , \'2    => ″ , \'3  => ‴
-                  \PDIF  => ∂ , \TEF   => ∴ , \BCS   => ∵
-                  \TMS   => × , \DIV  => ÷
+        Operator    : \U.    => ⨃ , \UU   => ∪  , \UN  => ∩
+                    \I1    => ∫ , \I3   => ∭  , \I=  => ⨎
+                    \IO1    => ∮ , \IO3   => ∰  , \IOW  => ∳
+                    \SQRT2 => √ , \SQRT3 => ∛ , \SQRT4 => ∜
+                    \'1    => ′ , \'2    => ″ , \'3  => ‴
+                    \PDIF  => ∂ , \TEF   => ∴ , \BCS   => ∵
+                    \TMS   => × , \DIV  => ÷
 
-    Relations   : \<=    => ≤ , \>=  => ≥   , \!=  => ≠
-                  \<~    => ⪝ , \>~  => ⪞   , \!>  => ≯
-                  \o+    => ⊕ , \o-  => ⊖
-                  \O+    => ⨀ , \OX  => ⨂
+        Relations   : \<=    => ≤ , \>=  => ≥   , \!=  => ≠
+                    \<~    => ⪝ , \>~  => ⪞   , \!>  => ≯
+                    \o+    => ⊕ , \o-  => ⊖
+                    \O+    => ⨀ , \OX  => ⨂
 
-    Sets        : \SUBO  => ⊂ , \SUBE => ⊆  , \SUBN => ⊄
-                  \SUPO  => ⊃ , \SUPX => ⊉
-                  \AND   => ∧ , \OR  => ∨   , \NOT => ¬
-                  \XOR   => ⊕
-                  \EXTS  => ∃ , \EXTN => ∄  , \FALL => ∀
-                  \BOT   => ⊥ , \TOP => ⊤   , \|-  => ⊢
+        Sets        : \SUBO  => ⊂ , \SUBE => ⊆  , \SUBN => ⊄
+                    \SUPO  => ⊃ , \SUPX => ⊉
+                    \AND   => ∧ , \OR  => ∨   , \NOT => ¬
+                    \XOR   => ⊕
+                    \EXTS  => ∃ , \EXTN => ∄  , \FALL => ∀
+                    \BOT   => ⊥ , \TOP => ⊤   , \|-  => ⊢
 
-    Misc        : \.|3   => ⋮ , \INF  => ∞
-                  \ARC   => ⌒ , \ANG  => ∠
-                  \DEGC  => ℃ , \DEGF => ℉
-                  \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
-                  \a/c   => ℀ , \a/s  => ℁  , \No   => №
-                  \TM    => ™
+        Misc        : \.|3   => ⋮ , \INF  => ∞
+                    \ARC   => ⌒ , \ANG  => ∠
+                    \DEGC  => ℃ , \DEGF => ℉
+                    \OHM   => Ω , \MHO  => ℧  , \ANGS => Å
+                    \a/c   => ℀ , \a/s  => ℁  , \No   => №
+                    \TM    => ™
 
-    Fonts       :
-                  \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
-                  \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
+        Fonts       :
+                    \BBA   => 𝔸 , \BBH => ℍ   , \BB0  => 𝟘
+                    \FKH   => ℋ , \FKI => ℑ   , \FKL  => ℒ
 
 
 - Latex CMD:
 
+        Based on Vim-Latex suite.
+        Only contains latex command which have corresponding unicode chars.
+        Fixed some incorrect mapping of Vim-Latex suite:
+        \bigodot \bigoplus \bigotimes \long...arrow
 
-    Based on Vim-Latex suite.
-    Only contains latex command which have corresponding unicode chars.
-    Fixed some incorrect mapping of Vim-Latex suite:
-    \bigodot \bigoplus \bigotimes \long...arrow
+        e.g: \neq  =>  ≠    ,  \Leftarrow =>  ⇐
+            \mathbbA => 𝔸  ,  \mathfrakA =>  𝔄
+            ...
 
-    e.g: \neq  =>  ≠    ,  \Leftarrow =>  ⇐
-         \mathbbA => 𝔸  ,  \mathfrakA =>  𝔄
-         ...
-
-    You can use Vim-Latex suite to check these command.
-    or this pdf of math symbols.
-    http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
+        You can use Vim-Latex suite to check these command.
+        or this pdf of math symbols.
+        http://amath.colorado.edu/documentation/LaTeX/Symbols.pdf 
 
 - Key Helper(`:KeyHelper`):
 
+        KeyHelper makes inputting these symbols easier.
 
-    KeyHelper makes inputting these symbols easier.
+        It will dynamicly showing matching keymap with your input.
+        And press '<Enter>' in the KeyHelper window to append to file.
 
-    It will dynamicly showing matching keymap with your input.
-    And press '<Enter>' in the KeyHelper window to append to file.
-
-     And you can input more unicode symbols:
-     0x2500-0x2800,  0x1D100 - 0x1D1DD
+        And you can input more unicode symbols:
+        0x2500-0x2800,  0x1D100 - 0x1D1DD
     
 
 **NOTE** view the keymap file (mathematic.vim) for detail mappings.
