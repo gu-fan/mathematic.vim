@@ -1,6 +1,6 @@
 " Vim Keymap file for Mathematic useage
 " Credit:   Rykka G.F <Rykka10(at)gmail.com>
-" Last Updated: 2012-05-12
+" Last Updated: 2012-05-13
 " Version: 1.1
 
 " NOTE: 
@@ -1620,8 +1620,7 @@ _x                       <char-0x2093> " ₓ
 \\27FC              <char-0x27FC> " ⟼   Long rightward arrow from bar
 \\27FD              <char-0x27FD> " ⟽   Long leftward double arrow from bar
 \\27FE              <char-0x27FE> " ⟾   Long rightward double arrow from bar
-\\27FF              <char-0x27FF> " ⟿\\|=                     <char-0x22A7> " ¿ MODELS
-   Long rightward squiggle arrow
+\\27FF              <char-0x27FF> " ⟿   Long rightward squiggle arrow
 
 \\1D100             <char-0x1D100> " 𝄀   MUSICAL SYMBOL SINGLE BARLINE        
 \\1D101             <char-0x1D101> " 𝄁   MUSICAL SYMBOL DOUBLE BARLINE        
