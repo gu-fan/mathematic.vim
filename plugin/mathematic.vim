@@ -20,6 +20,7 @@ fun! s:load_keymap() "{{{
                 \"~/.vim/bundle/mathematic.vim/keymap/mathematic.vim",
                 \g:mathematic_user_dir,
                 \]
+    let f = ''
     for file in files
         if filereadable(expand(file))
             let f = expand(file)
