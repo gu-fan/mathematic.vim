@@ -7,6 +7,9 @@
 "=============================================================
 let s:save_cpo = &cpo
 set cpo&vim
+if !exists("s:script_path")
+    let s:script_path = expand("<sfile>:p:h:h")
+endif
 if !exists("g:mathematic_user_dir")
     let g:mathematic_user_dir = ""
 endif
@@ -15,9 +18,7 @@ if !exists("g:mathematic_fuzzy_match")
 endif
 fun! s:load_keymap() "{{{
     let files = [
-                \"~/.vim/keymap/mathematic.vim",
-                \"~/.vim/localbundle/keymap/mathematic.vim",
-                \"~/.vim/bundle/mathematic.vim/keymap/mathematic.vim",
+                \s:script_path . "/keymap/mathematic.vim",
                 \g:mathematic_user_dir,
                 \]
     let f = ''
